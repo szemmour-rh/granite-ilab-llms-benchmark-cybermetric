@@ -1,5 +1,4 @@
 🧪 Evaluating file: CyberMetric-80-v1.json
-Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 80/80 [00:44<00:00,  1.81it/s, Acc: 83.75%]
 
 ✅ Final Accuracy: 83.75%
 
@@ -45,7 +44,6 @@ Q: In the context of encrypting data for secure communication, which encryption 
 
 
 🧪 Evaluating file: CyberMetric-500-v1.json
-Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [04:36<00:00,  1.81it/s, Acc: 84.20%]
 
 ✅ Final Accuracy: 84.20%
 
@@ -291,7 +289,7 @@ Q: Which choice below is NOT an example of an issue-specific policy?
 🧪 Evaluating file: CyberMetric-2000-v1.json
 Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 2000/2000 [17:58<00:00,  1.85it/s, Acc: 84.45%]
 
-✅ Final Accuracy: 84.45%
+✅ : 84.45%
 
 Incorrect answers:
 Q: What is the most important security concern when an organization moves to cloud computing, particularly in terms of server security?
@@ -1229,17 +1227,6 @@ Q: What do various laws impose into contracts as a matter of course concerning t
 
 
 🧪 Evaluating file: CyberMetric-10000-v1.json
-Evaluating:   8%|███████▋                                                                                    | 848/10180 [07:36<1:24:31,  1.84it/s, Acc: 83.25%][Error] ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)")), retrying in 1s…
-[Error] ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)")), retrying in 2s…
-[Error] ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)")), retrying in 4s…
-Evaluating:   8%|███████▌                                                                                   | 850/10180 [09:14<53:52:06, 20.79s/it, Acc: 83.18%][Error] ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)")), retrying in 1s…
-[Error] ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)")), retrying in 2s…
-[Error] ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)")), retrying in 4s…
-Evaluating:  43%|███████████████████████████████████████▌                                                   | 4426/10180 [45:44<1:03:42,  1.51it/s, Acc: 80.48%][Error] ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)")), retrying in 1s…
-[Error] ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)")), retrying in 2s…
-[Error] ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)")), retrying in 4s…
-Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 10180/10180 [1:41:41<00:00,  1.67it/s, Acc: 80.22%]
-
 ✅ Final Accuracy: 80.22%
 
 Incorrect answers:
