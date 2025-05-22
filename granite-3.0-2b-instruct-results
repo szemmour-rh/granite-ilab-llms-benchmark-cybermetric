@@ -1,5 +1,5 @@
 🧪 Evaluating file: CyberMetric-80-v1.json
-✅ Final Accuracy: 80.00%
+✅ Final Accuracy: 78.75%
 
 Incorrect answers:
 Q: What is the purpose of periodically changing passwords or passphrases?
@@ -7,6 +7,9 @@ Q: What is the purpose of periodically changing passwords or passphrases?
 
 Q: Which design concept limits access to systems from outside users while protecting users and systems inside the LAN?
  → Expected A, got B
+
+Q: Which of the following creates a fixed-length output from a variable-length input?
+ → Expected D, got C
 
 Q: In binary representation, what is the result of the bitwise XOR operation between 110101 and 101010
  → Expected A, got B
@@ -52,20 +55,26 @@ Q: Which technique aims to identify changes in normal routines by examining patt
 
 
 🧪 Evaluating file: CyberMetric-500-v1.json
-✅ Final Accuracy: 79.40%
+✅ Final Accuracy: 78.00%
 
 Incorrect answers:
 Q: Which of the following is a desirable property of a biometric system?
  → Expected A, got C
+
+Q: Which security process metric would most assist in determining an appropriate backup frequency for a database server?
+ → Expected C, got A
+
+Q: What is the result of 5521211 modulo 1337?
+ → Expected D, got C
+
+Q: Which principle of cybersecurity focuses on ensuring that data is accurate and trustworthy?
+ → Expected D, got C
 
 Q: What is the main benefit of WebAssembly?
  → Expected A, got B
 
 Q: What is the purpose of release management?
  → Expected D, got A
-
-Q: What is the formula to determine the number of connections in a full mesh network?
- → Expected B, got D
 
 Q: What does information assurance primarily focus on within the realm of information security?
  → Expected B, got D
@@ -103,9 +112,6 @@ Q: Which technique aims to identify changes in normal routines by examining patt
 Q: In binary representation, what is the result of the bitwise XOR operation between 110101 and 101010
  → Expected A, got B
 
-Q: In cryptography, what is the purpose of using a key-derivation function (KDF)?
- → Expected D, got C
-
 Q: What is the primary factor that can save a company when it comes to the failure of equipment and servers?
  → Expected C, got A
 
@@ -115,8 +121,8 @@ Q: Which of the following actions can help a user minimize exposure to security 
 Q: In an LDAP injection attack, how does the attacker manipulate the LDAP query to bypass authentication?
  → Expected C, got B
 
-Q: Which integrity model focuses on preventing unauthorized modifications to data or programs by comparing integrity levels between subjects and objects?
- → Expected C, got D
+Q: What are the primary types of authentication as categorized by the 'something you know, something you have, something you are' model?
+ → Expected B, got C
 
 Q: Which one of the following tools can be used to launch a distributed denial of service attack against a system or network?
  → Expected A, got B
@@ -128,13 +134,16 @@ Q: What type of keys are used in XML encryption to encrypt data for performance 
  → Expected A, got B
 
 Q: Who should approve exceptions to security procedures for the organizational element to which the procedures apply?
- → Expected D, got C
+ → Expected D, got A
 
 Q: What is the role of the three-way handshake in establishing a TCP connection?
  → Expected D, got C
 
 Q: What is the purpose of risk identification, analysis, and mitigation in a continuous risk management process?
  → Expected A, got D
+
+Q: How does HTTP serve as a potential protocol for tunneling data?
+ → Expected A, got B
 
 Q: Which hashing algorithm would you suggest for securing passwords in 2024?
  → Expected C, got B
@@ -155,7 +164,7 @@ Q: Which LAN transmission method involves sending a packet from a single source 
  → Expected A, got B
 
 Q: Which field in a DKIM signature contains the identifier of the responsible person or organization associated with the signing domain?
- → Expected A, got D
+ → Expected A, got C
 
 Q: Is it possible to factorize a large 2048-bit number in polynomial time?
  → Expected C, got B
@@ -172,10 +181,16 @@ Q: Which organisation developed the first globally-applicable security standard 
 Q: What is the main purpose of W⊕X memory policy in operating systems?
  → Expected C, got B
 
+Q: Which type of malicious code has more capabilities than tools that run strictly in a sandbox and is capable of accessing services and resources not available to code that runs in a restricted environment?
+ → Expected B, got D
+
 Q: How does UNIX typically verify the integrity of the filesystem after a system crash?
  → Expected A, got C
 
 Q: Which layer of the OSI model is responsible for maintaining session and connection control between two devices?
+ → Expected D, got C
+
+Q: Which of the following creates a fixed-length output from a variable-length input?
  → Expected D, got C
 
 Q: In the incident response process, what is the first phase?
@@ -250,6 +265,9 @@ Q: Why is it important to define security boundaries in both physical and logica
 Q: What information does a buffer overflow intend to control?
  → Expected C, got D
 
+Q: What is the benefit of open source code for software developers?
+ → Expected D, got A
+
 Q: What is the objective of risk management when risks are deemed tolerable?
  → Expected B, got D
 
@@ -292,9 +310,6 @@ Q: What technology is commonly used to secure mobile banking and e-commerce appl
 Q: What does TCP-level filtering provide that makes it more advantageous than packet filtering?
  → Expected D, got B
 
-Q: What is typically part of an information policy?
- → Expected C, got B
-
 Q: What technology allows an automated tool to interact with a human interface?
  → Expected B, got D
 
@@ -302,6 +317,9 @@ Q: What is the term used to categorize hackers into three separate classificatio
  → Expected A, got C
 
 Q: What is the term used to describe processes running at the same time?
+ → Expected A, got B
+
+Q: What is the primary advantage of protecting something as a trade secret instead of a patent?
  → Expected A, got B
 
 Q: How would you calculate risk?
@@ -353,7 +371,7 @@ Q: Which of the following factors is used to prove or verify the identity of an 
  → Expected C, got D
 
 Q: What happens when the rotor of an Enigma machine is rotated by 26 positions (the number of letters in the English alphabet)?
- → Expected C, got A
+ → Expected C, got B
 
 Q: What type of access control is not controlled by the owner of an object?
  → Expected B, got C
@@ -361,12 +379,18 @@ Q: What type of access control is not controlled by the owner of an object?
 Q: What technique do hackers use to impersonate a trusted system before attempting to gain access to external resources?
  → Expected D, got B
 
+Q: Which of the following represents a compensating control?
+ → Expected D, got C
+
+Q: Which type of key is used to decrypt the hash of a digital signature?
+ → Expected B, got C
+
 Q: Which choice below is NOT an example of an issue-specific policy?
  → Expected C, got D
 
 
 🧪 Evaluating file: CyberMetric-2000-v1.json
-✅ Final Accuracy: 78.40%
+✅ Final Accuracy: 78.70%
 
 Incorrect answers:
 Q: Based on the lastest advice from the National Institute of Standards and Technology (NIST), when should regular users be required to change their passwords?
@@ -391,7 +415,7 @@ Q: What is the primary goal of the birthday paradox in the context of cryptograp
  → Expected A, got B
 
 Q: What is the goal of electronic warfare?
- → Expected A, got B
+ → Expected A, got C
 
 Q: What is the main benefit of a honeypot with respect to an incident investigation?
  → Expected A, got B
@@ -406,7 +430,7 @@ Q: Which wireless networking standard operates solely at 5 GHz?
  → Expected A, got D
 
 Q: Which organization initiated efforts to develop the network communication model?
- → Expected C, got D
+ → Expected C, got A
 
 Q: What technique does nonstatistical sampling rely on to help focus on specific events?
  → Expected A, got D
@@ -416,6 +440,9 @@ Q: What method may an organization use to ensure ongoing compliance with PCI DSS
 
 Q: What is the process of converting sensitive data into an unreadable form to prevent unauthorized access?
  → Expected C, got B
+
+Q: Which of the following would lower the level of password security?
+ → Expected D, got A
 
 Q: Which domain would be considered suspicious and potentially fraudulent?
  → Expected D, got C
@@ -459,11 +486,17 @@ Q: How often should user accounts and access privileges to in-scope system compo
 Q: What is the primary purpose of a firewall in a network infrastructure?
  → Expected D, got C
 
+Q: What is another term for technical controls?
+ → Expected A, got C
+
 Q: What are the four basic threats to consider when using Internet, intranet, and Web technologies?
  → Expected C, got D
 
 Q: What is the principal purpose of using a three-level approach for distributing session keys in a public-key infrastructure?
  → Expected D, got A
+
+Q: When is a cyber operation treated as a 'cyber attack' under international law?
+ → Expected A, got C
 
 Q: What attribute of a ticket ensures that it can be used by an intermediate service on behalf of the client?
  → Expected B, got A
@@ -473,6 +506,9 @@ Q: What are the fundamental components of security policies and procedures?
 
 Q: Which of the following are primary categories of network security threats?
  → Expected B, got D
+
+Q: What is used to keep subjects accountable for their actions while they are authenticated to a system?
+ → Expected D, got C
 
 Q: What factor determines the role of trusted third parties in the surveys approach for creating personal privacy policies?
  → Expected A, got B
@@ -502,13 +538,13 @@ Q: Which international standard defines principles for incident management?
  → Expected C, got A
 
 Q: What is the central task of Information Risk Management in project sizing?
- → Expected A, got C
+ → Expected A, got D
 
 Q: According to the Internet Activities Board (IAB), which activity is considered a violation of ethical behavior on the Internet?
  → Expected A, got D
 
 Q: In which maturity level are comprehensive policies, standards, and guidelines reviewed and updated annually, with compliance being monitored?
- → Expected D, got B
+ → Expected D, got A
 
 Q: How does UNIX typically verify the integrity of the filesystem after a system crash?
  → Expected A, got C
@@ -517,7 +553,7 @@ Q: An attacker performs a whois search against a target organization and discove
  → Expected C, got B
 
 Q: Which cryptographic algorithm was designed by NIST and NSA and is used in the digital signature standard officially known as the Secure Hash Standard (SHS)?
- → Expected A, got D
+ → Expected A, got B
 
 Q: What is the standard protocol used to communicate between IKE and IPsec in BSD-based systems?
  → Expected A, got D
@@ -545,9 +581,6 @@ Q: What is the error rate of voice recognition systems typically used for forens
 
 Q: What knowledge and experience has been relatively scarce in security engineering?
  → Expected C, got D
-
-Q: What port range is an obscure third-party application most likely to use?
- → Expected A, got B
 
 Q: What is the purpose of establishing an IRM methodology and tools in Information Risk Management?
  → Expected A, got D
@@ -591,9 +624,6 @@ Q: Which transformation is applied to the message right block R in the LUCIFER b
 Q: What is a potential advantage of keypad access control systems?
  → Expected A, got C
 
-Q: Which biometric property refers to the characteristic existing in all individuals in the population being measured?
- → Expected D, got C
-
 Q: What is the best approach for handling a computer damaged in an automobile accident?
  → Expected A, got B
 
@@ -609,9 +639,6 @@ Q: The cost of mitigating a risk should not exceed the:
 Q: What marks the major difference between a hacker and an ethical hacker (pen test team member)?
  → Expected C, got A
 
-Q: What testing method performs run-time verification of compiled or packaged software, checking functionality that is only apparent when all components are integrated and running?
- → Expected C, got D
-
 Q: Which technology can be used to detect and prevent phishing attacks?
  → Expected D, got C
 
@@ -619,7 +646,7 @@ Q: Which of the following is a detective control when not used in real time?
  → Expected D, got C
 
 Q: Which hashing algorithm generates a 160 bit hashing value?
- → Expected C, got B
+ → Expected C, got None
 
 Q: How does the challenge of dealing with centralized health databases relate to privacy protection in medical records?
  → Expected A, got B
@@ -639,11 +666,11 @@ Q: Which malware type requires the user to execute its code, but then can spread
 Q: Which type of attack exploits user interface weaknesses of both web and mobile clients to steal sensitive information including login credentials and credit card numbers from victims?
  → Expected A, got D
 
+Q: What is the primary difference between computer forensics and network forensics?
+ → Expected A, got D
+
 Q: Which approach prevents Cross-Site Scripting (XSS) attacks by randomizing HTML tags and attributes to distinguish between untrusted and trusted content?
  → Expected C, got D
-
-Q: What is a list of serial numbers of digital certificates that have not expired but should be considered invalid?
- → Expected A, got D
 
 Q: What is the best reason to implement a security policy?
  → Expected C, got B
@@ -726,6 +753,9 @@ Q: Which encryption algorithm operates on a block of data rather than each chara
 Q: What is the main advantage of an operational forensics program?
  → Expected B, got C
 
+Q: What kind of attack uses targeted phishing to lure activists and companies into installing malware that is later used to spy on them?
+ → Expected A, got C
+
 Q: What is the primary control technology used to limit what devices can connect to a network?
  → Expected A, got C
 
@@ -737,9 +767,6 @@ Q: In which stage of an ethical hack would the attacker actively apply tools and
 
 Q: What is the term for the percentage of loss that a realized threat event would have on a specific asset in Risk Analysis?
  → Expected C, got B
-
-Q: Which type of fire might a CO2-based fire extinguishing system be most suitable for?
- → Expected A, got B
 
 Q: In switching, decisions about forwarding messages are made based on the:
  → Expected B, got D
@@ -771,9 +798,6 @@ Q: Which protocol suite uses cryptography to ensure the confidentiality and inte
 Q: What is the main purpose of retaining audit log history for at least 12 months?
  → Expected A, got B
 
-Q: What is the HIPAA-CMM based on?
- → Expected B, got C
-
 Q: What is the purpose of applying the function F in a Feistel cipher?
  → Expected D, got B
 
@@ -784,7 +808,7 @@ Q: What is necessary to decrypt a message encrypted with RSA?
  → Expected B, got A
 
 Q: What does an intrusion detection system (IDS) identify an attack as if it does not have the attack's signature in its database?
- → Expected A, got B
+ → Expected A, got D
 
 Q: What does Physical-Layer Identification aim to achieve?
  → Expected D, got B
@@ -792,17 +816,11 @@ Q: What does Physical-Layer Identification aim to achieve?
 Q: Which is the preferred approach for handling new Internet services considered to have unacceptable vulnerabilities?
  → Expected A, got B
 
-Q: Which framework is presented as a tool for analyzing architectural conditions and operations in business and does not address specific security practices?
- → Expected A, got B
-
-Q: What is the most widely used and effective injection attack globally?
- → Expected A, got C
-
 Q: Which level of FIPS 140-2 requires tamper resistance in addition to tamper evidence?
  → Expected D, got A
 
 Q: Which of the following enables an attacker to float a domain registration for a maximum of five days?
- → Expected A, got B
+ → Expected A, got D
 
 Q: Which of the following is a common point of compromise for attackers to go after?
  → Expected A, got D
@@ -837,9 +855,6 @@ Q: What is a potential use of egress filtering mentioned in the text?
 Q: Which of the following provides the highest security when it comes to memory?
  → Expected A, got B
 
-Q: What is the purpose of the message authentication code (MAC) in IPsec?
- → Expected D, got C
-
 Q: How can Windows workstations protect against session hijacking and replay?
  → Expected A, got D
 
@@ -858,8 +873,8 @@ Q: What is an anomaly that occurs when a rule in the firewall policy matches eve
 Q: What is the purpose of a network front end?
  → Expected D, got A
 
-Q: Which programming language is meant to be interpreted at runtime and has a C-inspired syntax?
- → Expected B, got D
+Q: How many keys exist in a public/private key pair?
+ → Expected A, got B
 
 Q: What mode has to be enabled on a network interface to allow all headers in wireless traffic to be captured?
  → Expected A, got D
@@ -870,8 +885,8 @@ Q: In the context of symmetric keys, which method is used for combining multiple
 Q: Which of the following best describes a blue team?
  → Expected A, got B
 
-Q: Which configuration file is used for specifying DNS spoofing mappings in Ettercap?
- → Expected B, got A
+Q: What is the main purpose of machine learning applied to cybersecurity?
+ → Expected C, got B
 
 Q: What is the role of the U.S. Department of Justice (DOJ) Computer Crime and Intellectual Property Section (CCIPS) in criminal investigations?
  → Expected B, got D
@@ -896,6 +911,12 @@ Q: Which wireless network technology requires a fixed infrastructure to enable c
 
 Q: In the discretionary portion of the Bell-LaPadula model that is based on the access matrix, how the access rights are defined and evaluated is called:
  → Expected D, got B
+
+Q: What is the purpose of the CVE-compatible tool or service?
+ → Expected C, got D
+
+Q: What is the basic idea of pattern matching intrusion detection systems?
+ → Expected B, got D
 
 Q: Which type of malware is intended for amusement and may result in a denial of service if people find the prank message frightening?
  → Expected D, got C
@@ -958,7 +979,7 @@ Q: What propagation technique does the Good Times virus use to spread infection?
  → Expected D, got B
 
 Q: Which method should be used to ensure that data cannot be recovered when disposing of data classified at a lower level, but may not be considered acceptable for top secret data?
- → Expected A, got B
+ → Expected A, got D
 
 Q: Role-based access control is useful when
  → Expected A, got B
@@ -984,14 +1005,14 @@ Q: What is the primary advantage of shared key authentication in wireless networ
 Q: What is a significant advantage of using reflective DLL injection to inject a DLL into a process?
  → Expected B, got A
 
+Q: Which statement is accurate about Evaluation Assurance Levels (EALs) in the Common Criteria (CC)?
+ → Expected D, got B
+
 Q: What is the purpose of a virtual machine in cybersecurity?
  → Expected A, got C
 
 Q: Which program is commonly used in Microsoft environments to govern user and computer accounts through a set of rules, and can be enhanced with security templates to configure many rules at once?
  → Expected C, got B
-
-Q: Which technology standard forms the basis of Web services?
- → Expected A, got D
 
 Q: Which approach uses natural language for creating privacy policies and visualizes the results for ensuring their intended goals?
  → Expected A, got B
@@ -1017,9 +1038,6 @@ Q: You are setting up a network intrusion detection system on a server and need 
 Q: What is the primary purpose of source code obfuscation?
  → Expected A, got D
 
-Q: Which document provides recommended approaches to the application of human rights in a business setting?
- → Expected D, got C
-
 Q: What key advantage of VPNs enables the creation of a network of virtual channels through the Internet?
  → Expected D, got C
 
@@ -1034,6 +1052,9 @@ Q: Which protocol is used to transfer files securely between computers and uses 
 
 Q: What classic game is used to illustrate the concept of prisoners' dilemma in game theory?
  → Expected D, got C
+
+Q: What does the principle of least privilege state?
+ → Expected B, got D
 
 Q: What is the purpose of a digital signature in cybersecurity?
  → Expected A, got C
@@ -1065,14 +1086,8 @@ Q: Which of the following is true of a stateful inspection firewall?
 Q: What is the core of the security life-cycle model?
  → Expected D, got C
 
-Q: Who is responsible for ensuring data integrity and security for an organization?
- → Expected B, got C
-
 Q: What is required for a thorough analysis of failure modes in safety-critical systems?
  → Expected D, got C
-
-Q: What does steganography replace in graphic files?
- → Expected C, got D
 
 Q: Why is SAN security important?
  → Expected B, got C
@@ -1086,8 +1101,11 @@ Q: Who should approve exceptions to security procedures for the organizational e
 Q: What is a potential use of software forensics in the context of identifying the author of a piece of malicious code?
  → Expected C, got B
 
+Q: How does XTS-AES mode ensure that the same plaintext block encrypts to different ciphertext blocks at different data unit positions?
+ → Expected A, got D
+
 Q: Which of the following represents the likelihood that a threat will exploit a vulnerability to cause harm to an asset?
- → Expected B, got D
+ → Expected B, got C
 
 Q: Which access method has shared media for transport, making it more susceptible to eavesdropping and intrusion?
  → Expected D, got C
@@ -1126,13 +1144,13 @@ Q: What type of queries are used to respond with a refer-to answer if the addres
  → Expected C, got A
 
 Q: The UDP headers contain which of the following fields?
- → Expected C, got A
+ → Expected C, got B
 
 Q: What is the significance of the transited realms list in a Kerberos ticket?
  → Expected A, got C
 
 Q: Which email security feature uses DNS to allow domain owners to create records associating domain names with IP address ranges of authorized senders?
- → Expected A, got C
+ → Expected A, got D
 
 Q: The purpose of establishing a protection domain in a computational system is to:
  → Expected D, got B
@@ -1201,7 +1219,7 @@ Q: What is the primary goal of Wired Equivalent Privacy (WEP) encryption in IEEE
  → Expected D, got A
 
 Q: The number of times a password should be changed is NOT a function of
- → Expected B, got D
+ → Expected B, got C
 
 Q: What are the key sources for obtaining privacy rules to guide company policies?
  → Expected C, got A
@@ -1209,14 +1227,11 @@ Q: What are the key sources for obtaining privacy rules to guide company policie
 Q: Which Wi-Fi security protocol is more secure than WEP and employs a 48-bit initialization vector?
  → Expected A, got D
 
-Q: What layer of the TCP/IP protocol stack is primarily responsible for reliable delivery of packets?
- → Expected A, got D
-
 Q: What is the main advantage of using a best-match policy for firewall rules?
  → Expected D, got C
 
 Q: Which functionality class of a random number generator is generally recommended for cryptographic applications, especially for the generation of ephemeral keys?
- → Expected C, got D
+ → Expected C, got A
 
 Q: What is a potential use of a smart card technology in addition to physical access control?
  → Expected A, got B
@@ -1226,9 +1241,6 @@ Q: In a corporate environment, which form of encryption would be used to create 
 
 Q: Who is responsible for communicating and clarifying the assurance requirements and expectations for an IT security product under evaluation?
  → Expected B, got D
-
-Q: A Trojan relies on __________ to be activated.
- → Expected C, got D
 
 Q: In the context of factorization methods, what does a smooth x-value relative to the factor base S mean?
  → Expected C, got B
@@ -1241,6 +1253,9 @@ Q: What is the mode of operation for a Wireless Application Protocol (WAP) gatew
 
 Q: What is the most common reaction to the loss of physical and infrastructure support?
  → Expected C, got B
+
+Q: Which of the following is a true statement regarding warrants and seizure on an individual's property?
+ → Expected D, got A
 
 Q: What is the maximum segment length supported by 10Base-T using Category 3 wiring?
  → Expected D, got C
@@ -1255,7 +1270,7 @@ Q: Why are formal methods not infallible in verifying the security of cryptograp
  → Expected A, got B
 
 Q: According to J.M. Kizza, what are the six types of intrusions?
- → Expected C, got A
+ → Expected C, got D
 
 Q: Which layer of the OSI model does user-to-network connectivity primarily leverage through a virtual private network (VPN)?
  → Expected D, got B
@@ -1341,9 +1356,6 @@ Q: Which connecting device operates at the datalink layer and digitally copies f
 Q: In the AES cipher, which transformation results in a column-wise operation between the State and the round key?
  → Expected B, got A
 
-Q: Which of the following accurately describes the security administration benefit of using virtualization technology?
- → Expected D, got A
-
 Q: You are asked to implement a risk treatment in which your IT department is removing a server from the environment that it deems is too risky due to having too many vulnerabilities in it. You have just practiced which type of risk treatment?
  → Expected A, got C
 
@@ -1353,17 +1365,11 @@ Q: What is the role of a Registration Authority (RA) in the Public Key Infrastru
 Q: Which of the following refers to who, what, when, where, and how of the collected evidence over its entire life span?
  → Expected B, got A
 
-Q: Machine A and Machine B are on the same subnet. Machine C, with address 00-01- 02-CC-DD-EE, is on a different subnet. While the attacker is sniffing on the fully switched network, Machine B sends a message to Machine C. If an attacker on Machine A wanted to receive a copy of this message, which of the following circumstances would be necessary?
- → Expected D, got C
-
 Q: What is a common means to protect power supply equipment from noise interference (EMI, RFI)?
  → Expected A, got C
 
 Q: Which type of twisted-pair cabling is most often referred to as just 10Base-T?
  → Expected C, got A
-
-Q: Why would you use wireless social engineering?
- → Expected B, got A
 
 Q: What is the primary purpose of ISO/IEC 13335-1:2004?
  → Expected B, got A
@@ -1389,9 +1395,6 @@ Q: What security concept ensures that the subject of an event cannot deny that t
 Q: What is the first step when investigating a computer crime?
  → Expected A, got C
 
-Q: The Trusted Platform Module (TPM) is implemented as a separate processor on the PC motherboard and is associated with which hardware manufacturer?
- → Expected D, got B
-
 Q: According to the fail terms definitions related to physical and digital products, which state prioritizes protecting assets over people?
  → Expected D, got C
 
@@ -1402,13 +1405,13 @@ Q: What type of mode requires a unique binary sequence for each encryption opera
  → Expected A, got C
 
 Q: Which model allows researchers to identify hotspots for cybercrime, such as poorly configured systems that are easier to compromise?
- → Expected B, got A
+ → Expected B, got D
 
 Q: The identity and access management lifecycle consists of which steps?
  → Expected B, got C
 
 Q: What is the first thing a hacker should do after gaining administrative access to a system?
- → Expected D, got C
+ → Expected D, got B
 
 Q: What is the primary purpose of establishing clipping levels for alarm activation?
  → Expected A, got B
@@ -1464,9 +1467,6 @@ Q: Which motivation might drive a publisher to commit click fraud by clicking on
 Q: Which of the following is a potential security concern of remote connections if not protected and monitored sufficiently?
  → Expected A, got C
 
-Q: What is the primary authentication method for validating each device in a machine certificate and EAP-TLS based architecture?
- → Expected A, got B
-
 Q: What response is missing in a SYN flood attack?
  → Expected C, got None
 
@@ -1498,7 +1498,7 @@ Q: What is the best way to secure a remote desktop server according to the given
  → Expected A, got B
 
 Q: Among the most widely used and potentially damaging attacks based on network vulnerabilities are:
- → Expected D, got A
+ → Expected D, got B
 
 Q: What is the primary technology utilized for biometric identification?
  → Expected D, got C
@@ -1536,8 +1536,14 @@ Q: What is the main reason for the failure of a water-based suppression system?
 Q: In the context of a system of federal states, what may be regarded as a foreign state?
  → Expected A, got B
 
+Q: What is the primary disadvantage of the newer forensic methodology compared to the older methodology?
+ → Expected D, got B
+
+Q: What technology is usually deployed in conjunction with unauthenticated ADS-B to mitigate some of its security vulnerabilities?
+ → Expected D, got C
+
 Q: Where are software firewalls usually located?
- → Expected C, got D
+ → Expected C, got B
 
 Q: What can you infer from an attacker inputting the given text into a Search text box and receiving a 'It Worked' pop-up?
  → Expected B, got C
@@ -1545,11 +1551,14 @@ Q: What can you infer from an attacker inputting the given text into a Search te
 Q: What method of cryptography uses two related keys for encryption and decryption?
  → Expected D, got C
 
+Q: What is one of the most common misconceptions regarding security and IT professionals?
+ → Expected C, got D
+
 Q: What is the main purpose of a split-split DNS design?
  → Expected A, got C
 
 Q: What does WPA3 use to start the authentication and association process between stations and access points?
- → Expected B, got D
+ → Expected B, got C
 
 Q: What is the primary advantage of asymmetric encryption over symmetric encryption?
  → Expected D, got B
@@ -1559,9 +1568,6 @@ Q: What is one of the growing issues in the telecom industry that the PayForIt s
 
 Q: What is the purpose of the stepping sequence in a cipher machine's breakwheel component?
  → Expected D, got B
-
-Q: What kind of vulnerability refers to the insertion of hidden HTML form fields that can be manipulated by users to change prices or access system passwords?
- → Expected D, got C
 
 Q: Which book listed plugboard settings used throughout the Japanese network for the PURPLE machine?
  → Expected D, got A
@@ -1645,7 +1651,7 @@ Q: Which of the following is NOT considered a form of data erasure?
  → Expected B, got A
 
 Q: What information could you get from running p0f?
- → Expected A, got D
+ → Expected A, got C
 
 Q: What is the primary purpose of incorporating ethics into an organizational policy?
  → Expected A, got B
@@ -1657,17 +1663,17 @@ Q: What does TCP-level filtering provide that makes it more advantageous than pa
  → Expected D, got B
 
 Q: What is used to establish an IPsec connection for individual remote hosts?
- → Expected B, got A
+ → Expected B, got D
 
 Q: Why should you not write malware in Python?
- → Expected B, got A
+ → Expected B, got D
 
 Q: What is the purpose of XML in managing security information?
  → Expected A, got D
 
 
 🧪 Evaluating file: CyberMetric-10000-v1.json
-✅ Final Accuracy: 75.67%
+✅ Final Accuracy: 75.96%
 
 Incorrect answers:
 Q: What process deals with the handling of someone else’s personal data and the level of control and consent the individual should expect to have over their data?
@@ -1693,9 +1699,6 @@ Q: What does information assurance primarily focus on within the realm of inform
 
 Q: You are asked to implement a risk treatment in which your IT department is removing a server from the environment that it deems is too risky due to having too many vulnerabilities in it. You have just practiced which type of risk treatment?
  → Expected A, got C
-
-Q: Which of the following statements is true regarding the types of security controls?
- → Expected A, got B
 
 Q: What kind of access control gives the owner of the resource full control to configure which subjects can access the object and what permissions they have?
  → Expected D, got B
@@ -1742,14 +1745,14 @@ Q: How many possible IPv6 addresses are there due to its 128-bit alphanumeric ad
 Q: What method can cyber attackers use to gain physical access and reset or reboot servers and network devices, leaving them vulnerable to malicious activities?
  → Expected C, got D
 
+Q: What is the primary control technology used to limit what devices can connect to a network?
+ → Expected A, got C
+
 Q: What is the name of the seventh layer of the OSI model?
- → Expected C, got A
+ → Expected C, got D
 
 Q: What is the best description of the difference between a phishing e-mail and a spear phishing e-mail?
  → Expected D, got A
-
-Q: Which of the following is not a true statement about a worm?
- → Expected B, got A
 
 Q: What is the primary difference between an IDS and an IPS?
  → Expected D, got A
@@ -1790,9 +1793,6 @@ Q: What is a viable approach to protecting against tailgaiting?
 Q: Why is bluesnarfing potentially more dangerous than bluejacking?
  → Expected D, got C
 
-Q: What is the primary function of network headers in a network stack?
- → Expected D, got C
-
 Q: What are the three address types used in IPv6?
  → Expected A, got B
 
@@ -1807,6 +1807,9 @@ Q: What does the window field value in the TCP header indicate?
 
 Q: Which layer of the OSI model does user-to-network connectivity primarily leverage through a virtual private network (VPN)?
  → Expected D, got B
+
+Q: What is the primary purpose of security standards?
+ → Expected D, got A
 
 Q: Which of these would be an example of a loss of integrity?
  → Expected C, got B
@@ -1865,8 +1868,8 @@ Q: What information can be obtained from the Details tab of the properties of an
 Q: What is the primary difference between a virus and a worm?
  → Expected A, got B
 
-Q: What would you use VirusTotal for?
- → Expected D, got C
+Q: What is one advantage of static analysis over dynamic analysis of malware?
+ → Expected B, got C
 
 Q: Which of these would be a reason why it is best for communications to originate from inside the infected network?
  → Expected C, got A
@@ -1882,6 +1885,9 @@ Q: What is the term for gaining unauthorized access to a building by pretending 
 
 Q: In the context of physical security, what is a man trap designed to prevent?
  → Expected D, got A
+
+Q: What form of biometric authentication involves scanning the pattern of the eye's iris?
+ → Expected A, got B
 
 Q: Which of the following encryption mechanisms introduced the Temporal Key Integrity Protocol?
  → Expected D, got B
@@ -1937,6 +1943,9 @@ Q: What technique does a slow read attack use?
 Q: How did 3AES improve on AES?
  → Expected D, got A
 
+Q: If Alice were to send an email to Bob, what key would she use to encrypt the message?
+ → Expected D, got C
+
 Q: Which security model focuses on data integrity and is also known as the Biba Integrity Model?
  → Expected B, got D
 
@@ -1958,6 +1967,9 @@ Q: What is the primary objective of the Respond function in NIST's Five Function
 Q: Which operating system security function is responsible for ensuring that different users or processes do not interfere with each other's data and resources?
  → Expected A, got D
 
+Q: Which of the following is a synonym for the art and science of making and breaking 'secret codes?'
+ → Expected D, got B
+
 Q: What is the term used for the data that is encrypted in a cryptosystem?
  → Expected D, got C
 
@@ -1965,6 +1977,9 @@ Q: What was the flaw in the method used to generate the pads in the VENONA proje
  → Expected A, got B
 
 Q: What was the primary weakness of the codebook cipher used during the election of 1876?
+ → Expected A, got B
+
+Q: According to the Kerckhoffs Principle, what should be assumed if a cryptosystem does not satisfy it?
  → Expected A, got B
 
 Q: What is the purpose of applying the function F in a Feistel cipher?
@@ -1984,12 +1999,6 @@ Q: What cryptanalytic attack has been used successfully on several public key sy
 
 Q: What is the main goal of the lattice reduction attack on the knapsack cryptosystem?
  → Expected B, got C
-
-Q: What does differential cryptanalysis focus on in the context of a block cipher?
- → Expected B, got C
-
-Q: In a Time-Memory Trade-Off, what is the 'time' aspect referring to?
- → Expected C, got A
 
 Q: In a TMTO attack, what are the 'tables' referred to?
  → Expected D, got A
@@ -2051,9 +2060,6 @@ Q: What was the main effect of the Brain virus of 1986?
 Q: What class of malware caused widespread panic and mass system disconnections on the Internet during its attack in 2001?
  → Expected D, got A
 
-Q: Why is software-based DRM limited in its effectiveness in enforcing persistent protection?
- → Expected B, got D
-
 Q: What is the mean time between failure (MTBF) equation for open source software testing?
  → Expected C, got A
 
@@ -2090,6 +2096,9 @@ Q: What is the main function of a public key in cryptography?
 Q: Which type of authentication uses a public/private key pair or a pre-shared key (PSK) in VPNs?
  → Expected B, got C
 
+Q: Why does the IKE protocol encapsulate IPsec packets into UDP or TCP when a NAT device is detected?
+ → Expected A, got B
+
 Q: What workaround is implemented within the IKE protocol to handle networks that do not correctly handle IP fragmentation?
  → Expected B, got A
 
@@ -2123,14 +2132,17 @@ Q: What is the standard protocol used to communicate between IKE and IPsec in BS
 Q: What is the method called that can ensure that packets are not bigger than the path MTU, particularly for TCP packets?
  → Expected A, got B
 
-Q: What is the primary authentication method for validating each device in a machine certificate and EAP-TLS based architecture?
- → Expected A, got B
-
 Q: Which architecture is often used in IPsec for remote access VPNs with multiple remote users?
  → Expected D, got B
 
 Q: What potential issue may limit the algorithm options when using a hardware-based cryptographic engine with a customized CPU (cryptographic accelerator)?
  → Expected B, got D
+
+Q: Which type of traffic is incompatible with IPsec and cannot negotiate security?
+ → Expected C, got D
+
+Q: Which DH group number is considered not NIST-approved?
+ → Expected D, got B
 
 Q: When should organizations be particularly mindful of network characteristics like the use of IPv6 and wireless networking?
  → Expected A, got B
@@ -2147,11 +2159,17 @@ Q: What action should the system administrator of the federal agency take in res
 Q: Which encryption algorithm is recommended for IKE and IPsec?
  → Expected D, got B
 
+Q: What should be the standard lifetime setting for IKE and IPsec Security Associations (SA) in the mesh encryption solution?
+ → Expected C, got A
+
 Q: What is the recommended approach for handling idletimes in the mesh encryption solution?
  → Expected B, got C
 
 Q: Which mode is recommended for IPsec connections in the mesh encryption solution to ensure a larger effective MTU?
  → Expected B, got C
+
+Q: What approach is recommended for handling exceptions to policies in the mesh encryption solution?
+ → Expected A, got D
 
 Q: What characteristic describes multicasting most accurately?
  → Expected D, got B
@@ -2166,10 +2184,10 @@ Q: What is used to authenticate IPsec endpoints to each other?
  → Expected D, got A
 
 Q: What is used to establish an IPsec connection for individual remote hosts?
- → Expected B, got A
+ → Expected B, got D
 
-Q: What is the purpose of an attack tree in cybersecurity?
- → Expected C, got B
+Q: What is the OSI layer responsible for security attacks?
+ → Expected B, got D
 
 Q: According to the model for network security, what are the two components of all techniques for providing security?
  → Expected A, got C
@@ -2195,6 +2213,9 @@ Q: What is the main objective of attacking an encryption system?
 Q: Based on the provided content, what is the motivation for the Feistel cipher structure?
  → Expected C, got B
 
+Q: What is the block size used in DES?
+ → Expected A, got C
+
 Q: What is the role of the initial and final permutations in the DES algorithm?
  → Expected B, got C
 
@@ -2205,10 +2226,10 @@ Q: What is used to produce the subkey for each round in DES?
  → Expected A, got D
 
 Q: In an integral domain, which property is not guaranteed?
- → Expected A, got C
+ → Expected A, got D
 
 Q: What is the purpose of using an irreducible polynomial to define a finite field?
- → Expected A, got C
+ → Expected A, got B
 
 Q: What is the function of the Substitute Bytes transformation in the AES encryption process?
  → Expected C, got B
@@ -2224,9 +2245,6 @@ Q: In XTS-AES mode, how are the last two blocks encrypted when the final plainte
 
 Q: How does XTS-AES mode ensure that the same plaintext block encrypts to different ciphertext blocks at different data unit positions?
  → Expected A, got D
-
-Q: Which of the following represents the output of a PRF-based function using CBC encryption with a 128-bit output and inputs X as a multiple of 128 bits and encryption key K?
- → Expected C, got D
 
 Q: Which of the following does a pseudorandom number generator (PRNG) require to be effective for cryptographic applications?
  → Expected A, got D
@@ -2291,6 +2309,9 @@ Q: How is the message schedule Wt derived in each round of SHA-512?
 Q: Which function is used to convert the 1600-bit state variable into a 5x5 matrix of 64-bit lanes in SHA-3?
  → Expected D, got A
 
+Q: What is the main purpose of the Rho step function in the SHA-3 algorithm?
+ → Expected B, got C
+
 Q: Which step function in SHA-3 operates to update each bit based on its current value and the value of the corresponding bit position in the next two lanes in the same row?
  → Expected A, got D
 
@@ -2312,17 +2333,23 @@ Q: What are the properties that a digital signature must have?
 Q: In the context of message authentication, what is the difference between a digital signature and a message authentication code (MAC)?
  → Expected C, got A
 
-Q: What are some threats associated with a direct digital signature scheme?
- → Expected A, got C
+Q: What is the purpose of the 'Authority Key Identifier' extension in the X.509 certificate format?
+ → Expected A, got B
 
 Q: What is the principal purpose of using a three-level approach for distributing session keys in a public-key infrastructure?
  → Expected D, got A
+
+Q: What does the 'Policy Constraints' extension in the X.509 certificate format specify?
+ → Expected A, got D
 
 Q: What does the 'Subject Key Identifier' extension in the X.509 certificate format identify?
  → Expected A, got B
 
 Q: What is the purpose of the 'Name Constraints' extension in the X.509 certificate format?
  → Expected D, got A
+
+Q: What is the process of establishing confidence in user identities presented electronically to an information system?
+ → Expected A, got B
 
 Q: What is an example of 'Something the individual possesses' as a means of authentication?
  → Expected A, got B
@@ -2345,9 +2372,6 @@ Q: Why is the use of session keys in the Kerberos protocol considered important 
 Q: What is the significance of including a timestamp and a lifetime in the ticket issued by the TGS in the Kerberos protocol?
  → Expected D, got C
 
-Q: What is the purpose of a ticket-granting ticket in Kerberos?
- → Expected A, got C
-
 Q: What is the purpose of a one-time secret key in asymmetric encryption for message confidentiality?
  → Expected A, got C
 
@@ -2365,6 +2389,9 @@ Q: What does IaaS enable customers to do?
 
 Q: Which alert message causes TLS to immediately terminate the connection?
  → Expected C, got D
+
+Q: Which TLS alert message causes TLS to immediately terminate the connection if received?
+ → Expected B, got C
 
 Q: What does the SSH_MSG_KEXINIT packet contain in the Secure Shell (SSH) protocol?
  → Expected A, got B
@@ -2384,11 +2411,14 @@ Q: What role does the Message Transfer Agent (MTA) play in the Internet mail arc
 Q: What does the Message Store (MS) represent in the Internet mail architecture?
  → Expected C, got A
 
-Q: Which protocol provides stronger authentication and additional functionality not supported by POP3?
- → Expected D, got A
+Q: What does DKIM enable for an MTA during the email transfer process?
+ → Expected C, got D
 
 Q: Which email security feature uses DNS to allow domain owners to create records associating domain names with IP address ranges of authorized senders?
  → Expected A, got D
+
+Q: Which resource record type in DNS is used to identify the mail exchange servers used by the domain?
+ → Expected A, got None
 
 Q: Which DNS resource record type is used to map a domain name to a hostname?
  → Expected A, got C
@@ -2420,14 +2450,20 @@ Q: Which mode is known for using an initialization vector (IV) to enhance securi
 Q: Which Wi-Fi security protocol is more secure than WEP and employs a 48-bit initialization vector?
  → Expected A, got D
 
+Q: What is the most basic form of social engineering attack?
+ → Expected B, got C
+
 Q: Which type of attack is designed to imitate another entity to obtain sensitive information, such as login credentials?
  → Expected C, got B
 
 Q: What does CISA stand for in the context of information security?
- → Expected D, got C
+ → Expected D, got A
 
 Q: What is one of the significant drawbacks of managing multiple separate security components instead of using an ITM solution?
  → Expected C, got B
+
+Q: Which is one of the potential drawbacks of using an ITM solution?
+ → Expected D, got A
 
 Q: What is a potential drawback of deploying an ITM solution in an organization?
  → Expected A, got B
@@ -2474,9 +2510,6 @@ Q: What is the main purpose of intelligence markers in the context of bot-detect
 Q: What does the presence of the 'E' marker indicate in the context of the Ourmon bot-detection algorithm?
  → Expected C, got B
 
-Q: What is the primary purpose of addressing risk in the risk management process?
- → Expected D, got B
-
 Q: What serves as the glue to bind specific vulnerabilities to specific controls?
  → Expected D, got B
 
@@ -2516,9 +2549,6 @@ Q: What is the primary purpose of having a database to manage tokens during thei
 Q: Which of the following is a characteristic of rootkits?
  → Expected C, got D
 
-Q: Which measure is essential for preventing rootkits from being installed on systems in the first place?
- → Expected C, got D
-
 Q: Which stage of incident response becomes particularly complex when rootkits are installed on victim systems?
  → Expected D, got B
 
@@ -2536,9 +2566,6 @@ Q: Which framework is not a security framework or standard of practice but a str
 
 Q: Which framework is structured in five aspects of security management: critical business applications, computer installations, networks, systems, and development?
  → Expected C, got B
-
-Q: Which framework is presented as a tool for analyzing architectural conditions and operations in business and does not address specific security practices?
- → Expected A, got D
 
 Q: Which framework provides a tool to get various security frameworks to work together harmoniously and is a graphical classification of various frameworks?
  → Expected A, got C
@@ -2575,9 +2602,6 @@ Q: What aspect of quantum computing will impose additional demands on network se
 
 Q: What is a potential benefit of quantum computing in terms of database security?
  → Expected C, got B
-
-Q: Which area of security is likely to benefit most from the potential pattern-matching capabilities of quantum computing?
- → Expected C, got A
 
 Q: What is a primary reason for enforcing penalties for noncompliance to policy as part of compliance assurance?
  → Expected C, got D
@@ -2627,9 +2651,6 @@ Q: What does the Merkle signature claim to be secure against?
 Q: What is the key derivation function used in ECIES for deriving key materials?
  → Expected C, got D
 
-Q: What is the recommended minimum entropy of the personal unblocking key (PUK) to prevent offline attacks?
- → Expected A, got D
-
 Q: Which functionality class of a random number generator is generally recommended for cryptographic applications, especially for the generation of ephemeral keys?
  → Expected C, got A
 
@@ -2647,6 +2668,9 @@ Q: The second recommended mechanism for key derivation in purely symmetric crypt
 
 Q: Why are cookies considered a potential security risk in web browsers?
  → Expected A, got C
+
+Q: Which of the following is NOT one of the three key principles of network security?
+ → Expected A, got D
 
 Q: Which term refers to the act of a user professing an identity to the system, such as a logon ID?
  → Expected A, got C
@@ -2729,17 +2753,20 @@ Q: What runlevel is typically associated with multi-user mode without networking
 Q: What does the 'K' represent in the file names of scripts found in the /etc/rc.d/rc<runlevel>.d/ directory on a Linux system?
  → Expected B, got C
 
-Q: What do set UID (SUID) programs allow within the UNIX system?
- → Expected C, got B
-
 Q: What is the purpose of the sticky bit on a directory in UNIX?
  → Expected B, got D
+
+Q: What is a common security risk related to browser parasites?
+ → Expected C, got D
 
 Q: Which of the following is a privacy concern related to browser parasites?
  → Expected A, got D
 
 Q: Which zone in Internet Explorer contains sites that could potentially damage the user's computer or data?
  → Expected C, got B
+
+Q: What level of privacy settings in Internet Explorer blocks third-party cookies that do not have a compact privacy policy?
+ → Expected C, got D
 
 Q: Why is the decision-making process for web browsers named 'client/server model'?
  → Expected A, got C
@@ -2758,6 +2785,9 @@ Q: How does co-location service benefit users?
 
 Q: What is the drawback of using do-it-yourself components for server security?
  → Expected C, got D
+
+Q: What is a disadvantage of using an SSH tunnel to secure e-mail?
+ → Expected D, got C
 
 Q: What is the main advantage of using DNSSEC for DNS security?
  → Expected D, got B
@@ -2787,7 +2817,7 @@ Q: What measure is recommended to minimize server risk when running LDAP?
  → Expected B, got C
 
 Q: What is the frequency in cycles per second for a sine wave that has a wavelength of 10 centimeters?
- → Expected A, got C
+ → Expected A, got None
 
 Q: Which band do cellular phone and wireless LAN networks operate in?
  → Expected D, got B
@@ -2835,16 +2865,13 @@ Q: What does the Kerberos authentication protocol use for mutual authentication 
  → Expected D, got C
 
 Q: What type of malicious code attaches to a host program and replicates when the infected program is executed?
- → Expected C, got B
+ → Expected C, got D
 
 Q: What type of attack involves an attacker intercepting old messages and attempting to resend them later, impersonating one of the participants?
  → Expected A, got C
 
 Q: Which organization maintains the Systems Security Engineering Capability Maturity Model?
  → Expected D, got C
-
-Q: Which type of evaluation was developed by the NSA to assess an organization's security posture and combines a subset of the SSE-CMM with a specialized criticality matrix?
- → Expected B, got D
 
 Q: What type of security problem can occur when e-mails are intercepted and read by unauthorized individuals?
  → Expected A, got D
@@ -2918,11 +2945,17 @@ Q: What was the main vulnerability identified in the COPAC electronic purse syst
 Q: What is the primary advantage of capabilities in managing access control compared to access control lists (ACLs)?
  → Expected A, got B
 
+Q: What was introduced in Windows 2000 that can override or complement the access control lists (ACLs) of Windows NT?
+ → Expected B, got D
+
 Q: Which component of Windows can be associated with sites, domains, or organizational units to manage configuration?
  → Expected C, got D
 
 Q: Which cryptographic primitive has a short input and a long output?
  → Expected B, got C
+
+Q: What is the recommended key size for the Advanced Encryption Standard (AES) algorithm, according to the given content?
+ → Expected C, got D
 
 Q: What is the term used to describe processes running at the same time?
  → Expected A, got B
@@ -2993,8 +3026,11 @@ Q: Which principle is relevant to balancing individuals' privacy with the need f
 Q: How does the challenge of dealing with centralized health databases relate to privacy protection in medical records?
  → Expected A, got B
 
+Q: Which security model does not enforce a separation-of-duty policy?
+ → Expected B, got D
+
 Q: Which type of policy does not prevent abuse by programmers with complete access to the system?
- → Expected C, got A
+ → Expected C, got D
 
 Q: What mechanism is typically more important than shared control in theft prevention?
  → Expected B, got C
@@ -3015,7 +3051,7 @@ Q: What design principle is exemplified by the implementation of a switch provid
  → Expected D, got B
 
 Q: What resulted from the Y2K-related software upgrade bungle at an ATM switch?
- → Expected C, got B
+ → Expected C, got D
 
 Q: What security benefit is derived from the use of smartcard chips alongside magnetic strips in ATM cards?
  → Expected D, got C
@@ -3028,9 +3064,6 @@ Q: What is a common cause of fraud in ATM operations in the 1980s?
 
 Q: What technology reduced losses from 0.269% of turnover in 1987 to 0.028% in 1995 in France?
  → Expected A, got C
-
-Q: Which country opted for zero merchant floor limits and all transactions being online, leading to a sharp reduction in credit card fraud losses?
- → Expected C, got D
 
 Q: What reduced fraud losses by 82% for an electrical goods chain in New York?
  → Expected A, got B
@@ -3049,6 +3082,9 @@ Q: What was the preferred route for phishermen to launder money from stolen acco
 
 Q: What is the primary reason why physical protection cannot be completely neglected?
  → Expected D, got A
+
+Q: What is a primary challenge associated with electronic locks in a building environment?
+ → Expected C, got D
 
 Q: In a prepayment metering system, the primary protection goal is to prevent:
  → Expected C, got D
@@ -3082,6 +3118,9 @@ Q: What is the main concern regarding the application of wristband seals?
 
 Q: What is the main focus of anti-gundecking measures according to the context?
  → Expected C, got B
+
+Q: What is the primary concern when using seals in high-value commercial products?
+ → Expected D, got C
 
 Q: What is the main reason for inspecting security seals on checked bags according to the context?
  → Expected A, got B
@@ -3131,6 +3170,9 @@ Q: Which physical tampering technique involves penetrating the passivation layer
 Q: In the context of cybersecurity, what did the European Union law that gave a strong presumption of validity to electronic signatures made using approved smartcards create?
  → Expected C, got B
 
+Q: What type of signals do VDUs emit?
+ → Expected B, got D
+
 Q: What is the primary purpose of communications intelligence?
  → Expected A, got C
 
@@ -3166,9 +3208,6 @@ Q: In third-generation mobile phones, what is used to encrypt the traffic betwee
 
 Q: Which improvement does third-generation mobile phones provide over GSM with respect to the two-way authentication?
  → Expected D, got B
-
-Q: How did the initial GSM security mechanisms' protection level compare to that of wireline networks in the context of A5/1 usage?
- → Expected A, got B
 
 Q: What is the length of the keys used for cryptography in third-generation mobile phones?
  → Expected A, got B
@@ -3227,6 +3266,9 @@ Q: What was the primary purpose of the Software Publishers’ Association in the
 Q: How did the industry try to upgrade the existing subscriber smartcards of commercial pay-TV pirates?
  → Expected C, got D
 
+Q: How did the pay-TV industry react to the successful forging of smartcards in the 20th century?
+ → Expected C, got B
+
 Q: What mechanism did the Dutch cable TV station use to identify the customers of pirates?
  → Expected A, got B
 
@@ -3281,6 +3323,9 @@ Q: What is the primary limitation of the Common Criteria Evaluation?
 Q: What are protection profiles in the context of the Common Criteria?
  → Expected C, got B
 
+Q: Which of the following limitations does the Common Criteria evaluation have with regards to environmental assumptions and organizational policies?
+ → Expected C, got A
+
 Q: Who ultimately determines the meaning and applicability of an evaluated product in the context of the Common Criteria?
  → Expected C, got D
 
@@ -3292,9 +3337,6 @@ Q: Which methodology was dismissed 'inadequate' in the 1970s and 1980s and is no
 
 Q: Which concept involves the systematic process of continuously updating preventative maintenance of software products?
  → Expected B, got D
-
-Q: The RSA algorithm is covered in which paper?
- → Expected A, got C
 
 Q: In the context of biometric authentication, which external feature is commonly used for identity verification?
  → Expected B, got D
@@ -3350,6 +3392,9 @@ Q: What is the main purpose of antispam software?
 Q: What is the primary means to protect against identity theft?
  → Expected B, got A
 
+Q: What is the formula for calculating the Annualized Rate of Occurrence (ARO)?
+ → Expected A, got C
+
 Q: What is the strategic phase of business continuity planning?
  → Expected A, got D
 
@@ -3363,10 +3408,13 @@ Q: What is the label typically used for information that is of the highest level
  → Expected A, got D
 
 Q: What protects data from unauthorized access or breaches throughout its lifetime, from creation to destruction?
- → Expected A, got D
+ → Expected A, got C
 
 Q: What refers to the ongoing efforts to organize and care for data throughout its lifetime, from creation to destruction?
  → Expected B, got C
+
+Q: Which type of DLP system scans all outgoing data looking for specific data and is typically placed on the edge of the network?
+ → Expected D, got B
 
 Q: What is the primary purpose of marking (labeling) sensitive information?
  → Expected A, got D
@@ -3420,7 +3468,7 @@ Q: What attack is an attempt to find flaws in the one-to-one nature of hashing f
  → Expected A, got C
 
 Q: According to the fail terms definitions related to physical and digital products, which state prioritizes protecting assets over people?
- → Expected D, got B
+ → Expected D, got C
 
 Q: Which security principle focuses on enforcing data integrity and preventing unauthorized changes to objects?
  → Expected B, got A
@@ -3436,6 +3484,9 @@ Q: Which best describes a confined or constrained process?
 
 Q: When a trusted subject violates the star property of Bell–LaPadula in order to write an object into a lower level, what valid operation could be taking place?
  → Expected B, got C
+
+Q: What Bell–LaPadula property keeps lower-level subjects from accessing objects with a higher security level?
+ → Expected B, got D
 
 Q: What is the implied meaning of the simple property of Biba?
  → Expected B, got A
@@ -3465,7 +3516,7 @@ Q: What does the term 'rooting' mean in the context of a mobile device?
  → Expected C, got B
 
 Q: Based on recent articles about the risk of mobile code and web apps, you want to adjust the security configurations of organizational endpoint devices to minimize the exposure. On a modern Windows system with the latest version of Microsoft's browser and all others disabled or blocked, which of the following is of the highest concern?
- → Expected C, got A
+ → Expected C, got B
 
 Q: Your company is evaluating several cloud providers to determine which is the best fit to host your custom services as a custom application solution. Which of the following is not relevant to this selection process?
  → Expected A, got D
@@ -3490,9 +3541,6 @@ Q: What is the primary goal of a deterrent alarm system?
 
 Q: What is a common means to protect power supply equipment from noise interference (EMI, RFI)?
  → Expected A, got C
-
-Q: What is the main drawback of smoke-actuated fire detection systems?
- → Expected B, got D
 
 Q: In the context of IT assets, what is the primary goal of a clean-desk policy?
  → Expected C, got B
@@ -3528,9 +3576,6 @@ Q: Which of the following is the correct order of the six common physical securi
  → Expected B, got C
 
 Q: Which protocol is used to provide access to various network services such as file servers or printing by grouping and then allowing access control?
- → Expected D, got A
-
-Q: Which feature of SDN allows an organization to mix and match hardware as needed, regardless of the vendor, to select the most cost-effective or highest throughput–rated devices?
  → Expected D, got B
 
 Q: Which wireless networking standard operates solely at 5 GHz?
@@ -3563,6 +3608,9 @@ Q: What is the primary purpose of a VPN concentrator?
 Q: Which type of VPN mode terminates at individual hosts connected together and does not encrypt the header of a communication?
  → Expected B, got C
 
+Q: In cybersecurity, what is the purpose of an always-on VPN?
+ → Expected D, got B
+
 Q: What is a full tunnel VPN configuration?
  → Expected B, got C
 
@@ -3581,9 +3629,6 @@ Q: What is a subject in the context of access control?
 Q: What are the three primary authentication factors as discussed in cybersecurity principles?
  → Expected D, got A
 
-Q: Which of the following is considered a method of passwordless authentication?
- → Expected B, got D
-
 Q: Which of the following is true related to a subject?
  → Expected B, got C
 
@@ -3601,9 +3646,6 @@ Q: Security investigators discovered that after attackers exploited a database s
 
 Q: Which type of attack refers to an attempt to discover passwords by using every possible password in a predefined database or list of common passwords?
  → Expected D, got C
-
-Q: Which type of attack is a special form of brute-force attack that attempts to bypass account lockout security controls?
- → Expected B, got D
 
 Q: Which of the following factors should be considered when scheduling security controls for review?
  → Expected D, got C
@@ -3645,7 +3687,7 @@ Q: What management technique ensures that systems are deployed in a secure, cons
  → Expected B, got D
 
 Q: Principle of need to know and the least privilege principle are part of what fundamental security concept?
- → Expected A, got C
+ → Expected A, got D
 
 Q: Which security operation concept can be used to limit the amount of time users have elevated privileges?
  → Expected B, got C
@@ -3661,6 +3703,9 @@ Q: What is a primary benefit of using images when deploying new systems?
 
 Q: Which step in incident management involves examining the incident to determine what allowed it to happen and implementing methods to prevent it from happening again?
  → Expected B, got C
+
+Q: What is the main purpose of machine learning applied to cybersecurity?
+ → Expected C, got B
 
 Q: What does the Cyber Kill Chain model primarily aim to do?
  → Expected A, got B
@@ -3746,9 +3791,6 @@ Q: What mechanism is necessary to provide performance, availability, and securit
 Q: What does a asymmetrical cryptographic system use to create digital signatures and establish secure communications?
  → Expected C, got B
 
-Q: What is the degree to which the information system has safeguards in place to protect it from risk known as?
- → Expected B, got C
-
 Q: What is the best choice for granting an administrator the ability to run commands requiring root-level privileges on a Linux system?
  → Expected B, got C
 
@@ -3812,8 +3854,8 @@ Q: Dumpster diving can be considered which type of social-engineering attack?
 Q: Which of the following types of scanning is considered the most detectable by IDS systems?
  → Expected D, got B
 
-Q: What is the main purpose of using a proxy server while scanning a target computer?
- → Expected D, got B
+Q: What is a common approach used in banner grabbing and OS fingerprinting?
+ → Expected D, got C
 
 Q: What is the purpose of enumeration in the context of network scanning?
  → Expected D, got C
@@ -3834,13 +3876,13 @@ Q: Which command is used to cover tracks on a target system?
  → Expected D, got C
 
 Q: What type of hacking application is Snow?
- → Expected A, got D
+ → Expected A, got B
 
 Q: What is the first thing a hacker should do after gaining administrative access to a system?
- → Expected D, got C
+ → Expected D, got B
 
-Q: Which countermeasure tool will detect NTFS streams?
- → Expected C, got D
+Q: What does a single quote ('') indicate when used to test for a SQL injection vulnerability?
+ → Expected A, got C
 
 Q: What is the first step in finding a SQL injection vulnerability?
  → Expected B, got C
@@ -3853,6 +3895,9 @@ Q: Which method can a hacker use to evade the trap set by a honeypot?
 
 Q: Which encryption algorithm uses a 128-bit digest to create digital signatures for documents and emails?
  → Expected C, got D
+
+Q: How many keys exist in a public/private key pair?
+ → Expected A, got B
 
 Q: What algorithm outputs a 128-bit message digest regardless of the length of the input?
  → Expected A, got D
@@ -3881,9 +3926,6 @@ Q: What does security awareness training aim to achieve primarily?
 Q: What is a primary step in both quantitative and qualitative risk analysis?
  → Expected A, got B
 
-Q: Which type of access control is based on the individual's role or title within the organization?
- → Expected A, got C
-
 Q: What is the advantage of a behavior-based Intrusion Detection system?
  → Expected A, got D
 
@@ -3902,9 +3944,6 @@ Q: What does a hub primarily operate at in terms of the OSI model?
 Q: What concept or principle is employed in frequency analysis to decrypt substitution ciphers?
  → Expected A, got C
 
-Q: What type of encryption is familiar to most people and involves both the sender and receiver knowing a secret key?
- → Expected D, got B
-
 Q: What is a common problem with using a symmetric key system for encryption?
  → Expected B, got A
 
@@ -3919,12 +3958,6 @@ Q: Which evaluation criteria addresses confidentiality and integrity in trusted 
 
 Q: Which of the following controls aims to lower the amount and impact of unintentional errors that are entering the system and prevent unauthorized intruders from accessing the system?
  → Expected A, got D
-
-Q: Which level of assurance focuses on the basic features and architecture of a system and ensures that a TCB’s security policy has been correctly implemented and that the system’s security features have accurately implemented that policy?
- → Expected B, got D
-
-Q: Why is security an issue when a system is booted into “Single-user mode”?
- → Expected B, got D
 
 Q: Using pre-numbered transaction is an example of what type of control?
  → Expected A, got C
@@ -3949,6 +3982,12 @@ Q: What is the primary purpose of incorporating ethics into an organizational po
 
 Q: According to the Internet Activities Board (IAB), which activity is considered a violation of ethical behavior on the Internet?
  → Expected A, got D
+
+Q: How many times should a diskette be formatted to comply with TCSEC Orange book object reuse recommendations?
+ → Expected C, got None
+
+Q: What is a brownout defined as?
+ → Expected B, got A
 
 Q: Which type of fire extinguishing method contains standing water in the pipe and generally does not enable a manual shutdown of systems before discharge?
  → Expected A, got B
@@ -3990,13 +4029,13 @@ Q: A computer system characterized by a Superscalar architecture is
  → Expected C, got B
 
 Q: According to the Internet Activities Board (IAB), an activity that causes which of the following is considered a violation of ethical behavior on the Internet?
- → Expected A, got C
+ → Expected A, got D
 
 Q: The Federal Sentencing Guidelines
  → Expected B, got A
 
-Q: The chain of evidence relates to
- → Expected C, got B
+Q: The Kennedy-Kassenbaum Act is also known as
+ → Expected B, got A
 
 Q: Which one of the following conditions must be met if legal electronic monitoring of employees is conducted by an organization?
  → Expected D, got B
@@ -4008,10 +4047,7 @@ Q: Which of the following is NOT a commonly used authentication factor in cybers
  → Expected B, got D
 
 Q: What is a common method of social engineering used to trick individuals into disclosing personal or sensitive information?
- → Expected B, got D
-
-Q: What type of exercise is conducted with full knowledge of the target environment?
- → Expected A, got C
+ → Expected B, got C
 
 Q: Which design concept limits access to systems from outside users while protecting users and systems inside the LAN?
  → Expected B, got C
@@ -4025,9 +4061,6 @@ Q: The integrity component provides which feature of the CIA triad?
 Q: Which mechanism or process is used to enable or disable access to a network resource based on attacks that have been detected?
  → Expected D, got B
 
-Q: An individual presents herself at your office claiming to be a service technician. She is attempting to discuss technical details of your environment such as applications, hardware, and personnel used to manage it. This may be an example of what type of attack?
- → Expected D, got C
-
 Q: Which of the following is a major security problem with FTP?
  → Expected D, got C
 
@@ -4037,8 +4070,8 @@ Q: Which of the following is NOT a core concept of the CIA triad in cybersecurit
 Q: Which phase of incident response involves methodically collecting evidence without altering or damaging it?
  → Expected A, got C
 
-Q: What layer of the OSI model provides a translation of data that is understandable by the next receiving layer?
- → Expected C, got D
+Q: What is the function of the Presentation layer in the OSI model?
+ → Expected B, got A
 
 Q: What kind of domain resides on a single switchport?
  → Expected A, got D
@@ -4124,9 +4157,6 @@ Q: Which utility will tell you in real time which ports are listening or in anot
 Q: What is not a benefit of hardware keyloggers?
  → Expected B, got D
 
-Q: A Trojan relies on __________ to be activated.
- → Expected C, got D
-
 Q: What is a covert channel?
  → Expected C, got A
 
@@ -4155,16 +4185,16 @@ Q: What appliance is used to prevent direct customer contact with the server and
  → Expected D, got C
 
 Q: What response is missing in a SYN flood attack?
- → Expected C, got D
+ → Expected C, got None
 
 Q: What is the process that extends the core functionality of Apache web server through the integration of compiled modules?
  → Expected D, got A
 
+Q: In the client-server model, where is the bulk of the processing done?
+ → Expected D, got A
+
 Q: What vulnerability occurs when data is accepted without restriction and can lead to problems such as database manipulation and inconsistent data?
  → Expected A, got D
-
-Q: Which type of attack aims to redirect the browser to a different page that may deposit malicious software onto the victim's system?
- → Expected D, got B
 
 Q: What tool can be used to assess the security of web applications and their associated encryption strategies?
  → Expected C, got D
@@ -4173,7 +4203,7 @@ Q: Which attack can take over or spoof as a user to access files and directories
  → Expected A, got B
 
 Q: Which wireless encryption mechanism uses Temporal Key Integrity Protocol (TKIP) and is the successor to WEP?
- → Expected A, got B
+ → Expected A, got D
 
 Q: Which wireless technology standard has the quickest wireless speed and operates in unlicensed bands of frequencies?
  → Expected A, got B
@@ -4184,11 +4214,11 @@ Q: What is one of the possible vulnerabilities that Bluetooth suffers from?
 Q: What is the main flaw commonly associated with Bluetooth devices?
  → Expected C, got A
 
-Q: When a device is rooted, what is the effect on security?
- → Expected D, got C
+Q: Jailbreaking a phone refers to what?
+ → Expected D, got B
 
-Q: Which application is used for denial of service attacks on Android?
- → Expected A, got C
+Q: Jennifer has captured the following URL: www.CyberMetric.com/&id20/session=1111. She realizes that she can perform a session hijack. Which utility would she use?
+ → Expected C, got D
 
 Q: A man-in-the-browser attack delivered by a piece of malware can be prevented by which of the following?
  → Expected D, got C
@@ -4203,13 +4233,19 @@ Q: Which type of firewall is intended to protect resources from attack and is ty
  → Expected A, got B
 
 Q: What type of fragmentation attack involves exploiting the weakness of some IDSs in reassembling fragmented packets?
+ → Expected D, got B
+
+Q: Which of the following is effective in evading or bypassing a firewall by converting a URL to an IP address?
  → Expected D, got A
+
+Q: Which tool can be used to simulate millions of geographically dispersed concurrent users visiting a website to test the application under huge loads?
+ → Expected B, got C
 
 Q: Which type of attack exploits the fact that the signature element does not convey information about the location of the referenced elements in the document tree?
  → Expected A, got C
 
 Q: Which of the following can be used to protect data stored in the cloud?
- → Expected B, got C
+ → Expected B, got A
 
 Q: Why wouldn’t someone create a private cloud?
  → Expected C, got B
@@ -4232,14 +4268,8 @@ Q: In a penetration testing project, what should the client be made aware of to 
 Q: What is the recommended approach for informing employees during the penetration test to avoid influencing their behaviors?
  → Expected C, got D
 
-Q: What is the purpose of the exploitation phase in the PTES process?
- → Expected C, got B
-
 Q: Which of the following is NOT a primary application of cryptography?
  → Expected C, got D
-
-Q: What assumption is made when an encryption algorithm is considered 'Public'?
- → Expected C, got B
 
 Q: According to Kerckhoff's principle, what should the selection of a particular member (key) of the cryptographic system be?
  → Expected A, got D
@@ -4259,9 +4289,6 @@ Q: What is the primary purpose of a stream cipher?
 Q: What is the function of a key exchange protocol in a network?
  → Expected C, got B
 
-Q: What are the principal applications of cryptography?
- → Expected C, got B
-
 Q: What is the key principle for choosing a particular member (key) of the cryptographic system to be used, according to cryptographic standards?
  → Expected D, got C
 
@@ -4272,16 +4299,10 @@ Q: What does SIGINT Intelligence encompass in cybersecurity?
  → Expected B, got D
 
 Q: What does Cryptanalysis make use of?
- → Expected B, got A
+ → Expected B, got D
 
 Q: What does the history of cryptography emphasize regarding cryptosystems?
  → Expected D, got C
-
-Q: How is the process of columnar transposition cryptanalysis by cribbing used to test the possible width N?
- → Expected C, got A
-
-Q: In the context of Gaussian elimination, what is the purpose of elementary row transformations?
- → Expected C, got B
 
 Q: What is the purpose of elementary row transformations, and what type of operation is used to interchange the rows of a matrix?
  → Expected A, got C
@@ -4299,13 +4320,10 @@ Q: What type of process is a Bernoulli process often described as?
  → Expected C, got A
 
 Q: How is the distance between the measured letter frequencies minimized in cryptoanalysis?
- → Expected B, got A
+ → Expected B, got C
 
 Q: What is the primary purpose of using a codebook in the Soviet Union's encryption method?
  → Expected A, got C
-
-Q: Which method is used to test if two samples of monoalphabetically enciphered text resulted from the same or different monoalphabetic substitutions?
- → Expected D, got B
 
 Q: What is the primary reason for the reusability of the one-time pad by the Soviet Union?
  → Expected D, got C
@@ -4355,6 +4373,9 @@ Q: What is the total number of possible connections from the Enigma keyboard to 
 Q: What is the purpose of the Enigma message indicator setting in the key distribution protocol?
  → Expected B, got A
 
+Q: What cryptographic principle involves ensuring that only authorized parties can access and modify data?
+ → Expected B, got D
+
 Q: What is the purpose of the stepping sequence in a cipher machine's breakwheel component?
  → Expected D, got B
 
@@ -4367,11 +4388,11 @@ Q: In the context of cipher systems, what is the purpose of normalized kappa val
 Q: What is the significance of RED substitutions uV and uC?
  → Expected B, got C
 
-Q: How is a crib used in the context of cryptanalysis of RED ciphertext?
- → Expected A, got B
-
 Q: What is the primary purpose of applying stepping equations in cryptanalysis of RED ciphertext?
  → Expected C, got B
+
+Q: In the context of cryptanalysis of RED ciphertext, what does the term 'inactive breakwheel pins' refer to?
+ → Expected A, got C
 
 Q: In PURPLE, what was used to encipher vowels to vowels and consonants to consonants?
  → Expected A, got D
@@ -4391,23 +4412,14 @@ Q: The PURPLE machine appeared on the scene just as which technology was being d
 Q: Which book listed basic operating instructions for the PURPLE machine?
  → Expected B, got A
 
-Q: In the PURPLE machine, the encipherment of the consonant 'x' to the consonant 'y' is a result of how many transformations?
- → Expected C, got B
-
 Q: What is a fundamental cybersecurity principle for preventing unauthorized access to a network?
  → Expected D, got C
-
-Q: What is a fundamental best practice to protect against malware and cyber threats?
- → Expected A, got B
 
 Q: What does the residual set of triples T after pruning represent?
  → Expected C, got D
 
 Q: What accurately describes the initial setting of the V-stepper?
  → Expected C, got D
-
-Q: What is the purpose of the hill climbing algorithm in the context of finding the V-stepper?
- → Expected B, got D
 
 Q: In a feedback shift register, what is the function of the AND-gates?
  → Expected D, got B
@@ -4440,7 +4452,7 @@ Q: Which of the following describes a typical key-dependent mapping in block cip
  → Expected A, got C
 
 Q: In DES, what is the size of the plaintext block?
- → Expected A, got D
+ → Expected A, got C
 
 Q: Which of the following best describes the DES key schedule?
  → Expected A, got C
@@ -4451,10 +4463,13 @@ Q: What is the primary characteristic of semi-weak keys in DES?
 Q: In DES, how many bits are used in the initial permutation IP?
  → Expected B, got C
 
-Q: What principle of S-boxes has never been made public at the request of NSA in the design of DES?
- → Expected D, got C
+Q: In the context of cybersecurity, what is the purpose of chaining when enciphering plaintext?
+ → Expected A, got B
 
-Q: Which of the following is a fundamental concept in cybersecurity?
+Q: What is the average length of the cycle containing a randomly chosen element in a set Zm={0, 1, . . ., m-1}?
+ → Expected C, got B
+
+Q: What principle of S-boxes has never been made public at the request of NSA in the design of DES?
  → Expected D, got C
 
 Q: What was the stimulus for the development of public key cryptography?
@@ -4465,6 +4480,9 @@ Q: What is the classic method for key distribution proposed by Needham and Schro
 
 Q: What is the term for a database entry that consists of an authenticator and an identifier, related by a mathematical operation, used for checking the correspondence between the two?
  → Expected B, got A
+
+Q: Which parameter is part of the knapsack public key in the Merkle–Hellman encryption scheme?
+ → Expected A, got B
 
 Q: In the Merkle–Hellman knapsack encipherment, what does the knapsack length represent for the plaintext?
  → Expected D, got C
@@ -4493,14 +4511,14 @@ Q: What does the Williams Quadratic Encipherment aim to achieve in relation to R
 Q: What is the probability of distinct dirthdays in a class of 26 student according to the birthday paradox?
  → Expected A, got B
 
-Q: What is the probability that any two students in a class of n students have the same birthday according to the birthday paradox?
- → Expected B, got D
-
 Q: In the quadratic sieve (QS) method, what set is used to find smooth x-values?
  → Expected A, got B
 
 Q: What does the integer s represent in the quadratic sieve (QS) method?
  → Expected C, got D
+
+Q: In the context of factorization methods, what does a smooth x-value relative to the factor base S mean?
+ → Expected C, got B
 
 Q: What step in the quadratic sieve (QS) method involves constructing a table of smooth x-values and their factorizations?
  → Expected D, got C
@@ -4553,6 +4571,9 @@ Q: What is the primary goal of Nontechnical controls in risk assessment?
 Q: When selecting controls in risk assessment, what is a critical consideration for establishing a good return on investment?
  → Expected D, got C
 
+Q: What is the purpose of mapping new standards and industry requirements to an organization's existing control standards or to ISO 17799?
+ → Expected A, got B
+
 Q: What is the purpose of gap analysis in the context of information security management?
  → Expected A, got D
 
@@ -4574,9 +4595,6 @@ Q: Which of the following is a common response by a port to a port scan?
 Q: What does the SYN/ACK packet primarily indicate in the TCP three-way handshake?
  → Expected D, got C
 
-Q: What does the ACK packet represent in the TCP three-way handshake?
- → Expected C, got B
-
 Q: How does UDP respond to packets addressed to a UDP port that is not open?
  → Expected A, got B
 
@@ -4588,9 +4606,6 @@ Q: Which of the following is NOT a primary goal of cryptography?
 
 Q: What is the main purpose of key clustering in cryptography?
  → Expected A, got B
-
-Q: What does the CIA triad in cryptography emphasize?
- → Expected B, got D
 
 Q: What type of cryptography is considered slower than symmetric cryptography?
  → Expected B, got A
@@ -4622,6 +4637,9 @@ Q: What is the first step in the system development life cycle?
 Q: How does change management ensure the quality and security of changes to the production environment?
  → Expected B, got C
 
+Q: What is a key component in the administrative procedures process for implementing changes?
+ → Expected A, got C
+
 Q: How can an organization ensure consistency in security controls and service levels with a third-party?
  → Expected B, got C
 
@@ -4636,9 +4654,6 @@ Q: What term refers to the process of teaching a skill or the use of a required 
 
 Q: What is the goal of the business continuity plan?
  → Expected D, got C
-
-Q: What is the primary function of a disaster recovery plan (DRP)?
- → Expected D, got A
 
 Q: Which site type is a self-contained, transportable shell custom-fitted with specific telecommunications and IT equipment necessary to meet system requirements?
  → Expected B, got D
@@ -4659,7 +4674,7 @@ Q: What is the primary disadvantage of the newer forensic methodology compared t
  → Expected D, got B
 
 Q: Which of the following attacks would compromise the integrity of system information?
- → Expected A, got D
+ → Expected A, got B
 
 Q: What should an information security manager be particularly mindful of when implementing a security control?
  → Expected D, got C
@@ -4671,7 +4686,7 @@ Q: What would be a disadvantage of deploying a proxy-based firewall?
  → Expected B, got D
 
 Q: What is a primary difference between Secure Sockets Layer (SSL) and Secure HyperText Transfer Protocol (SHTTP)?
- → Expected A, got C
+ → Expected A, got B
 
 Q: Which statement most accurately reflects the encryption used by SSL?
  → Expected D, got C
@@ -4694,9 +4709,6 @@ Q: What is the key benefit of implementing a stateful inspection firewall over a
 Q: What is the purpose of the anycast address in IPv6 networking?
  → Expected A, got D
 
-Q: What command is used to upload a file in the FTP program?
- → Expected D, got C
-
 Q: What is the option for performing a TCP port scan using Nmap?
  → Expected C, got A
 
@@ -4710,7 +4722,7 @@ Q: What is a typical way to deploy a Trojaned file?
  → Expected C, got B
 
 Q: Which step is necessary to configure the Windows firewall?
- → Expected D, got B
+ → Expected D, got A
 
 Q: What is the process of verifying that a key belongs to the person claimed to be its owner in GPG?
  → Expected A, got B
@@ -4763,9 +4775,6 @@ Q: What is a common protocol used for secure email communication?
 Q: Which of the following is an important principle of physical security?
  → Expected A, got B
 
-Q: What role does a firewall play in network security?
- → Expected C, got B
-
 Q: Which layer of the OSI model enables two systems to establish a communication session?
  → Expected A, got C
 
@@ -4775,6 +4784,9 @@ Q: What is a vulnerability?
 Q: Where can someone find lists of vulnerabilities and resources for education on them?
  → Expected A, got C
 
+Q: What type of access control is characterized by security policy enforced by a security administrator?
+ → Expected D, got C
+
 Q: What is the term used to categorize hackers into three separate classifications?
  → Expected A, got C
 
@@ -4783,9 +4795,6 @@ Q: Which type of hacker is considered the good guys and are hired by a customer 
 
 Q: Which type of testing is designed to simulate a knowledgeable internal threat, such as a disgruntled network admin or other trusted user?
  → Expected D, got C
-
-Q: Brad has done some research and determined a certain set of systems on his network fail once every ten years. The purchase price for each of these systems is $1200. Additionally, Brad discovers the administrators on staff, who earn $50 an hour, estimate five hours to replace a machine. Five employees, earning $25 an hour, depend on each system and will be completely unproductive while it is down. If you were to ask Brad for an ALE on these devices, what should he answer with?
- → Expected B, got D
 
 Q: In which stage of an ethical hack would the attacker actively apply tools and techniques to gather more in-depth information on the targets?
  → Expected D, got C
@@ -4826,12 +4835,6 @@ Q: You’re running an IDLE scan and send the first packet to the target machine
 Q: Which ICMP message type/code indicates the packet could not arrive at the recipient due to exceeding its time to live?
  → Expected D, got C
 
-Q: Which of the following statements is true regarding port scanning?
- → Expected C, got A
-
-Q: Passive sniffing works best in a network environment that uses what type of device?
- → Expected B, got A
-
 Q: What is the purpose of MAC Flooding in the context of network sniffing?
  → Expected A, got D
 
@@ -4851,7 +4854,7 @@ Q: Which of the following works at Layer 5 of the OSI model?
  → Expected D, got B
 
 Q: Which authentication measure requires a token, such as a swipe badge or an ATM card, for authentication?
- → Expected A, got D
+ → Expected A, got C
 
 Q: Which Linux command enables the owner to assign security rights to the user, group, and others for any resource?
  → Expected B, got D
@@ -4864,9 +4867,6 @@ Q: Which of the following techniques involves hiding files behind other files to
 
 Q: While pentesting a client, you discover that LM hashing, with no salting, is still engaged for backward compatibility on most systems. One stolen password hash reads 9FAF6B755DC38E12AAD3B435B51404EE. Is this user following good password procedures?
  → Expected D, got B
-
-Q: Where is the SAM file stored on a Windows 7 system?
- → Expected B, got D
 
 Q: Which web server makes up the majority of the marketplace according to web surveys? (2023)
  → Expected B, got C
@@ -4895,9 +4895,6 @@ Q: What does bluesnarfing refer to in cybersecurity?
 Q: Which tool is useful for finding Bluetooth-enabled devices and extracting information from them?
  → Expected A, got C
 
-Q: Which of the following jailbreaking techniques will leave the phone in a jailbroken state even after a reboot?
- → Expected B, got A
-
 Q: Which IoT communication model makes use of a component adding a collective before sending data to the cloud, which adds a measure of security control to the application?
  → Expected C, got D
 
@@ -4906,12 +4903,6 @@ Q: An attacker leverages a vulnerability within Bluetooth on an IoT device and s
 
 Q: Implementing cloud computing provides many benefits. Which of the following is the best choice of a security principle applicable to implementing cloud security?
  → Expected C, got D
-
-Q: Which of the following cloud computing attacks can be best described as a CSRF attack?
- → Expected B, got A
-
-Q: In the NIST Cloud Computing Reference Architecture, which of the following has the responsibility of transmitting the data?
- → Expected B, got C
 
 Q: Which type of self-replicating malware reproduces its code by attaching copies into other executable codes?
  → Expected B, got D
@@ -4998,18 +4989,12 @@ Q: You need to ensure that data types and rules are enforced in the database. Wh
  → Expected A, got D
 
 Q: Which statement correctly defines the capability maturity model in the context of software development?
- → Expected D, got A
+ → Expected D, got B
 
 Q: Which malicious software relies upon other applications to execute and infect the system?
  → Expected C, got A
 
 Q: Which statement correctly defines spamming attacks?
- → Expected B, got D
-
-Q: Which site is usually maintained within the company and requires no contract with an offsite vendor?
- → Expected C, got D
-
-Q: The business continuity committee has developed the business impact analysis (BIA) identified the preventative controls that can be implemented and develop the recovery strategies. Next the committee should develop a contingency plan. All of the following teams should be included in this plan's development to aid in the execution of the final plan except?
  → Expected B, got D
 
 Q: Which alternate disaster recovery facility is the easiest to test?
@@ -5045,14 +5030,11 @@ Q: When is a disaster recovery plan implemented?
 Q: Your organization has decided to implement the Diffie-Hellman asymmetric algorithm. Which statement is true of this algorithm's key exchange?
  → Expected A, got C
 
-Q: What is a list of serial numbers of digital certificates that have not expired but should be considered invalid?
- → Expected A, got D
-
 Q: Which statement is NOT true of an RSA algorithm?
  → Expected A, got B
 
 Q: Your organization signed a contract with the United States military. As part of this contract all e-mail communication between your organization and the US military must be protected. Which e-mail standard must you use for this communication?
- → Expected C, got D
+ → Expected C, got A
 
 Q: You want to send a file to a coworker named Maria. You do not want to protect the file contents from being viewed; however when Maria receives a file you want her to be able to determine whether the contents of the file were altered during transit. Which protective measures should you use?
  → Expected D, got B
@@ -5065,6 +5047,9 @@ Q: Your company hosts several public web sites on its Web Server. Some of the si
 
 Q: Recently your organization has become increasingly concerned about hackers. You have been specifically tasked with preventing man in the middle attacks. Which protocol is NOT capable of preventing this type of attack?
  → Expected C, got D
+
+Q: Which hashing algorithm generates a 160 bit hashing value?
+ → Expected C, got None
 
 Q: You have implemented a public key infrastructure (PKI) to issue certificates to the computers on your organization's network. You must ensure that the certificates that have been validated are protected. What must be secured in a PKI to do this?
  → Expected C, got B
@@ -5091,13 +5076,13 @@ Q: Which role is a strategic role that helps to develop policies standards and g
  → Expected C, got B
 
 Q: What is the first step when investigating a computer crime?
- → Expected A, got B
+ → Expected A, got C
 
 Q: Typically computer files are considered hearsay evidence. In which of the following scenarios would computer files be admissible?
  → Expected C, got D
 
 Q: Which of the following is a true statement regarding warrants and seizure on an individual's property?
- → Expected D, got B
+ → Expected D, got A
 
 Q: What type of attack is done with a protocol analyzer?
  → Expected A, got D
@@ -5153,6 +5138,9 @@ Q: Which of the following works as a transfer agent?
 Q: There should be one role or committee that is responsible for enforcing and maintaining the change control process within a company. Which of the following functions is NOT the responsibility of this group?
  → Expected A, got D
 
+Q: What does a company need to investigate to ensure that the availability of production systems are not negatively affected for a long period of time if a new system goes down?
+ → Expected D, got C
+
 Q: Which of the following should be used to suppress the fuel supply of a fire of common combustibles?
  → Expected C, got A
 
@@ -5169,12 +5157,6 @@ Q: Sometimes basic fencing does not provide the level of protection a company re
  → Expected A, got D
 
 Q: Different organizations have different physical security protection requirements thus they need different types of controls and countermeasures. Which of the following is NOT a legitimate justification for using security guards at a facility?
- → Expected B, got D
-
-Q: Any of the following actions can be taken to prevent static electricity except which one?
- → Expected C, got D
-
-Q: Which of the following is a LAN transmission technology that is susceptible to collisions and provides a mechanism for retransmission?
  → Expected B, got D
 
 Q: Why are network sniffers dangerous to an environment?
@@ -5234,14 +5216,11 @@ Q: Which of the following best describes hashing?
 Q: In IPsec, encryption and other processes happen at which layer of the OSI model?
  → Expected B, got A
 
-Q: What is the main purpose of biometric systems?
- → Expected A, got C
-
 Q: What is the purpose of an external hard drive in regards to a company's assets?
  → Expected D, got B
 
 Q: What is one of the most common misconceptions regarding security and IT professionals?
- → Expected C, got A
+ → Expected C, got D
 
 Q: What is the term for making a message unreadable to anyone except the intended recipient?
  → Expected D, got C
@@ -5276,9 +5255,6 @@ Q: In the Dolev-Yao adversary model, what can an adversary do?
 Q: What type of forgery is distinguished in the Dolev-Yao adversary model?
  → Expected A, got D
 
-Q: Which action can an adversary not perform in the Dolev-Yao adversary model for network security?
- → Expected C, got D
-
 Q: What is the limit on the amount of data that can be safely encrypted under a single key for a block cipher with a 64-bit block size?
  → Expected B, got C
 
@@ -5312,23 +5288,26 @@ Q: Which of the following are primary categories of network security threats?
 Q: Which wireless network technology requires a fixed infrastructure to enable communication?
  → Expected C, got B
 
+Q: What is the key security feature added by Ariadne onto the route discovery and route maintenance in ad hoc networks?
+ → Expected B, got C
+
 Q: What key security protocol provides data authenticity and freshness in wireless sensor networks using a block cipher and a message authentication code (MAC)?
  → Expected C, got A
 
-Q: Which fundamental security protocol is aimed at providing stronger security compared to WEP and tackles most of the weaknesses found in WEP in wireless LANs?
- → Expected C, got B
+Q: What security measure is used in bootstrapping to prevent unauthorized adding of nodes and unauthorized removal of nodes from the node list in route discovery?
+ → Expected B, got C
 
 Q: Which of the following components is responsible for storing data and communicating with an RFID reader via radio frequency communication?
  → Expected A, got D
+
+Q: Which type of RFID tag has the ability to perform cryptography computation?
+ → Expected C, got D
 
 Q: What approach allows RFID tags to respond with different pseudonyms to prevent unauthorized reading?
  → Expected B, got A
 
 Q: In what way does an active RFID tag differ from a passive tag?
  → Expected D, got B
-
-Q: What is the direct consequence of repudiation in an RFID system?
- → Expected C, got D
 
 Q: What is the main purpose of information security management?
  → Expected A, got C
@@ -5359,6 +5338,9 @@ Q: Who is responsible for directing, coordinating, planning, and organizing info
 
 Q: Which model of identity management is described as a single authority using opaque trust decisions without any credentials choice or portability?
  → Expected A, got B
+
+Q: Which technology provides a way for users to select, manage, and control their digital identities in a secure and easy manner?
+ → Expected C, got B
 
 Q: What is the primary purpose of the Security Assertion Markup Language (SAML)?
  → Expected A, got B
@@ -5447,8 +5429,8 @@ Q: What is the purpose of the Extended Euclidean Algorithm in cryptography?
 Q: What value is located at the (0,0) position in the AES S-Box table?
  → Expected A, got B
 
-Q: Which operation remaps each column of the state during the encryption process in AES?
- → Expected D, got B
+Q: In AES, what is used to generate the round keys for each round from the original cipher key?
+ → Expected A, got D
 
 Q: In AES, what is the term used to represent a group of 32 bits?
  → Expected A, got D
@@ -5460,7 +5442,7 @@ Q: In what year did the idea of using artificial satellites for communication fi
  → Expected C, got B
 
 Q: What is the fundamental basis for the operation of PKI systems?
- → Expected D, got B
+ → Expected D, got C
 
 Q: What is the purpose of the Authority Revocation List (ARL) in X.509 certificates?
  → Expected D, got A
@@ -5485,9 +5467,6 @@ Q: What is the primary purpose of instant messaging (IM) technology in a busines
 
 Q: Why is it important to understand the risks associated with data and traffic analysis in the context of instant messaging?
  → Expected C, got B
-
-Q: What is of primary concern when evaluating the risk of intellectual property leakage in the context of instant messaging?
- → Expected B, got A
 
 Q: How does instant messaging technology pose a risk in the context of inappropriate use?
  → Expected A, got C
@@ -5534,7 +5513,13 @@ Q: What is the primary disadvantage of simplistic rate limiting on SIP traffic n
 Q: How is SIP Identity used in inter-domain communications?
  → Expected B, got A
 
+Q: Which of the following is an important aspect of securing a storage network?
+ → Expected A, got B
+
 Q: What best describes the purpose of the Diffie-Hellman Challenge Handshake Authentication Protocol (DH-CHAP) in a Fibre Channel SAN?
+ → Expected C, got B
+
+Q: What should be performed on every SAN device when implemented as part of security best practices?
  → Expected C, got B
 
 Q: What does AAA stand for in the context of network security?
@@ -5630,8 +5615,11 @@ Q: What is Eye4you software used for?
 Q: Which type of controls require each subject to be granted the most restrictive set of privileges needed for the performance of authorized tasks?
  → Expected D, got A
 
+Q: What is the primary goal of biometrics in identity management?
+ → Expected A, got B
+
 Q: What is the main operation of authentication in a biometrics system?
- → Expected A, got D
+ → Expected A, got C
 
 Q: Which of the following is a common attack vector for XSS exploits?
  → Expected A, got C
@@ -5693,9 +5681,6 @@ Q: What is the main purpose of a Screened-Subnet Firewall with a DMZ?
 Q: Which remote access authentication system does not support the protocols AppleTalk Remote Access Protocol (ARAP), NetBIOS Frame Protocol Control Protocol (NBFCP), NetWare Asynchronous Services Interface (NASI), and X.25 PAD connections?
  → Expected B, got C
 
-Q: Which LAN technology operates primarily in networks with sporadic, occasionally heavy traffic requirements?
- → Expected B, got D
-
 Q: What is the term for a cryptographic transformation that operates at the level of words or phrases?
  → Expected A, got B
 
@@ -5714,14 +5699,14 @@ Q: Which of the following algorithms is not applicable for digital signatures?
 Q: What is the mode of operation for a Wireless Application Protocol (WAP) gateway in which the transmission is protected by WTLS and then re-encrypted for transmission using SSL on the wired network?
  → Expected D, got C
 
-Q: In wireless security, what does the Secure Hypertext Transfer Protocol (S-HTTP) provide for?
- → Expected D, got B
-
 Q: The purpose of establishing a protection domain in a computational system is to:
  → Expected D, got B
 
 Q: In a protection ring mechanism, which ring has the least privileged domain?
  → Expected B, got D
+
+Q: What does a security perimeter separate in a computer system?
+ → Expected D, got B
 
 Q: Which security mode requires users to have a clearance, authorization and need to know for all information processed by the system, allowing the system to handle multiple classification levels?
  → Expected C, got A
@@ -5767,9 +5752,6 @@ Q: What does IPL stand for?
 
 Q: Which is NOT true about Covert Channel Analysis?
  → Expected B, got A
-
-Q: Using pre-numbered forms to initiate a transaction is an example of what type of control?
- → Expected D, got C
 
 Q: Which of the following is a reason to institute output controls?
  → Expected B, got A
@@ -5831,6 +5813,9 @@ Q: In biometrics, a good measure of performance of a system is the:
 Q: Which of the following is NOT an assumption of the basic Kerberos paradigm?
  → Expected D, got C
 
+Q: Which one of the following statements is TRUE concerning the Terminal Access Controller Access Control System (TACACS) and TACACS+?
+ → Expected D, got C
+
 Q: In most security protocols that support authentication, integrity and confidentiality,
  → Expected A, got B
 
@@ -5876,11 +5861,11 @@ Q: Which of the following is NOT considered a form of data erasure?
 Q: Which choice below is NOT an example of an issue-specific policy?
  → Expected C, got D
 
+Q: Which choice below is NOT a common information-gathering technique when performing a risk analysis?
+ → Expected C, got D
+
 Q: Which statement below is accurate about the difference between issue-specific and system-specific policies?
  → Expected A, got D
-
-Q: Which part of the 48-bit, 12-digit hexadecimal number known as the Media Access Control (MAC) address identifies the manufacturer of the network device?
- → Expected A, got B
 
 Q: Which choice below is NOT one of the legal IP address ranges specified by RFC1976 and reserved by the Internet Assigned Numbers Authority (IANA) for nonroutable private addresses?
  → Expected C, got D
@@ -5903,9 +5888,6 @@ Q: What BEST describes the National Security Agency-developed Capstone?
 Q: Which of the following is NOT a characteristic of a block cipher?
  → Expected D, got C
 
-Q: Which book of the Rainbow series addresses the Trusted Network Interpretation (TNI)?
- → Expected C, got A
-
 Q: Which choice describes the Forest Green Book?
  → Expected D, got B
 
@@ -5916,16 +5898,13 @@ Q: Which media control below is the BEST choice to prevent data remanence on mag
  → Expected C, got A
 
 Q: Which TCSEC security class category below specifies 'trusted recovery'?
- → Expected A, got C
+ → Expected A, got D
 
 Q: Which statement accurately describes the role of a security administrator in B2 and above systems?
  → Expected D, got B
 
 Q: What category in the TCSEC security class specifies 'trusted distribution' controls?
- → Expected C, got B
-
-Q: Which description is NOT an example of a media control?
- → Expected A, got C
+ → Expected C, got A
 
 Q: Which statement is accurate about Evaluation Assurance Levels (EALs) in the Common Criteria (CC)?
  → Expected D, got B
@@ -5951,14 +5930,8 @@ Q: Which type of routing calculates the best path through the network based on t
 Q: Which method enables multiple choice wireless devices in a LAN to access a transmission medium over a LAN?
  → Expected D, got A
 
-Q: What is the primary goal of 'multiplexer' in networking?
- → Expected D, got C
-
 Q: What is the purpose of a network front end?
  → Expected D, got A
-
-Q: What is the primary purpose of a repeater in a network?
- → Expected B, got C
 
 Q: What best characterizes a flaw in hardware, firmware, communication, or software that exposes a computer processing system to potential exploitation?
  → Expected C, got D
@@ -5975,11 +5948,8 @@ Q: Who are the primary target audience of the guide according to the preface?
 Q: Which type of firewall filters network traffic based on known services?
  → Expected A, got B
 
-Q: What distinguishes automated vulnerability reporting in a research project?
- → Expected C, got D
-
 Q: Which networking technology uses a combination of amplitude, frequency, and phase shift as modulation characteristics?
- → Expected C, got B
+ → Expected C, got A
 
 Q: Which wireless medium offers better communication range and larger distance coverage?
  → Expected D, got A
@@ -6023,9 +5993,6 @@ Q: Who are crackers in the context of cybersecurity?
 Q: What is the purpose of encrypting backups?
  → Expected D, got B
 
-Q: In which type of access authorization, the division of labor requires different privileges for different individual subjects at different key steps in a process?
- → Expected C, got B
-
 Q: What type of authentication method is based on the use of a challenge-response exchange using digital signatures for secure communication?
  → Expected D, got B
 
@@ -6046,9 +6013,6 @@ Q: What is one of the primary drawbacks of public key encryption compared to sym
 
 Q: What service does a public key encryption scheme provide?
  → Expected A, got C
-
-Q: Which of the following types of firewall inspects the contents of incoming or outgoing TCP, UDP, ICMP packets and decides whether to forward or reject them based on specific packet policies set in the organization's security policy?
- → Expected C, got B
 
 Q: According to J.M. Kizza, what are the six types of intrusions?
  → Expected C, got D
@@ -6135,10 +6099,7 @@ Q: What is one of the most familiar privileges in a Windows token?
  → Expected D, got B
 
 Q: Which step of Windows process execution activates the application start cursor while waiting for the primary thread to engage the GUI of the application?
- → Expected C, got D
-
-Q: What is the primary purpose of using proxies in cybersecurity?
- → Expected D, got C
+ → Expected C, got A
 
 Q: What makes DNS a good choice for data exfiltration and tunneling?
  → Expected B, got C
@@ -6167,6 +6128,9 @@ Q: What is the best method to cease malicious fast-flux activity?
 Q: What is the maximum number of iterations required to find a password of maximum length 'l' using a character set of size 'c' in a brute force attack?
  → Expected D, got C
 
+Q: A correctly guessed password from a brute force attack would be localized to the attack endpoint only, if the authentication system has proper ________ policies in place.
+ → Expected C, got B
+
 Q: In a brute force attack, reducing the time required per iteration can make the attack more effective, especially when performed in what type of scenario using obtained username and password hashes?
  → Expected A, got B
 
@@ -6175,9 +6139,6 @@ Q: What is the primary purpose of source code obfuscation?
 
 Q: What is the purpose of using concatenation as an obfuscation technique in cyber attacks?
  → Expected D, got C
-
-Q: What characteristic of a VME allows the detection of virtual machine environments?
- → Expected B, got A
 
 Q: Which method of virtualization can cause inconsistencies, allowing detection of VMEs?
  → Expected C, got D
@@ -6194,6 +6155,9 @@ Q: Which Windows registry key is used to inject a DLL into the Windows Explorer 
 Q: What is a significant advantage of using reflective DLL injection to inject a DLL into a process?
  → Expected B, got A
 
+Q: In which Windows operating system does the AppInit_DLLs registry key commonly inject DLLs into processes?
+ → Expected C, got D
+
 Q: Which of the following registry keys is used to inject a DLL into Internet Explorer by listing DLLs that interact with the browser through a customized code?
  → Expected B, got D
 
@@ -6202,6 +6166,9 @@ Q: What distinguishes low-interaction honeypots from high-interaction honeypots?
 
 Q: What is the main benefit of a honeypot with respect to an incident investigation?
  → Expected A, got B
+
+Q: What role does isolation play in the effectiveness of a honeypot?
+ → Expected D, got B
 
 Q: What is the purpose of the network tap in the out-of-line sensor topology?
  → Expected D, got C
@@ -6213,7 +6180,7 @@ Q: Which method can be used to evade detection from an IDS by changing the repre
  → Expected A, got D
 
 Q: Which method is commonly used to detect worm outbreaks?
- → Expected A, got D
+ → Expected A, got B
 
 Q: Which category does Snippy and Camtasia Studio fall under?
  → Expected D, got B
@@ -6236,11 +6203,8 @@ Q: What is a common use of biometrics in the context of improving an organizatio
 Q: What is the most important requirement for a biometric characteristic to be suitable for measurement?
  → Expected B, got D
 
-Q: What does the term 'permanence' refer to in biometric characteristics?
- → Expected A, got B
-
 Q: Which of the following defines the limits or boundaries within which people or systems must work?
- → Expected A, got B
+ → Expected A, got D
 
 Q: What type of access control determines who can access data, when, and under what circumstances?
  → Expected A, got C
@@ -6260,9 +6224,6 @@ Q: What type of data relates to who we are, what we have, and what we do?
 Q: Which type of lock was the first major breakthrough in the history of identification-based security?
  → Expected A, got C
 
-Q: What is the only measurable characteristic associated with the human body that was universally accepted as a positive identifier?
- → Expected A, got C
-
 Q: Which of the following is a common problem experienced with fingerprint-based biometric identification systems?
  → Expected C, got D
 
@@ -6278,17 +6239,14 @@ Q: Which biometric characteristic is vital to a system meeting high security req
 Q: Which type of error is generally considered the most important for a biometric access control system?
  → Expected A, got B
 
-Q: Which feature ensures that end users only see applications they are authorized to access and automatically updates application passwords?
- → Expected C, got B
-
 Q: What is the primary function of an SSO product's authorization server?
  → Expected A, got D
 
+Q: What is a possible benefit of integrating Single Sign-On (SSO) with a Public Key Infrastructure (PKI) solution?
+ → Expected A, got B
+
 Q: Which of the following is a crucial aspect of user authentication in the context of Single Sign-On (SSO)?
  → Expected C, got D
-
-Q: Which of the following best describes a relation in a relational database?
- → Expected A, got C
 
 Q: Which protocol is classified as an authentication, authorization, and accounting (AAA) server?
  → Expected D, got B
@@ -6314,6 +6272,9 @@ Q: What is one of the main challenges in providing transparent access for remote
 Q: Which of the following is a key aspect of a secure remote access system?
  → Expected C, got D
 
+Q: What is a fundamental design goal for a secure remote access system?
+ → Expected A, got B
+
 Q: What is one of the main considerations when providing transparent access to remote employees?
  → Expected B, got D
 
@@ -6334,9 +6295,6 @@ Q: What is the best defense against a kernel-level RootKit?
 
 Q: Which tool is commonly used for passive sniffing on a LAN?
  → Expected C, got B
-
-Q: What is a common target of social engineering attacks?
- → Expected B, got D
 
 Q: Which of the following is a technique for securing wireless LANs?
  → Expected A, got D
@@ -6396,7 +6354,7 @@ Q: What does the L0pht Crack Scanner target using a built-in sniffer and protoco
  → Expected A, got C
 
 Q: Which tool is designed to automate session hijacking by recognizing certain signatures in network traffic?
- → Expected A, got D
+ → Expected A, got B
 
 Q: What is a key characteristic of dedicated sniffer equipment compared to PC-based sniffers?
  → Expected D, got B
@@ -6407,11 +6365,20 @@ Q: What type of authentication mechanism relies on dynamic authentication data t
 Q: Which is the preferred approach for handling new Internet services considered to have unacceptable vulnerabilities?
  → Expected A, got B
 
+Q: What process does identification and authentication coincide with in a network context?
+ → Expected A, got B
+
 Q: What is the primary benefit of using proxies for different services in the context of application gateways?
  → Expected B, got C
 
 Q: What does the physical layer of the OSI model define?
  → Expected D, got B
+
+Q: What are the three broad areas in which threats to LAN/WAN security are grouped?
+ → Expected B, got C
+
+Q: What is the primary method of controlling access to systems involving passwords and log-on codes?
+ → Expected A, got C
 
 Q: What is the maximum segment length supported by 10Base-T using Category 3 wiring?
  → Expected D, got C
@@ -6426,7 +6393,7 @@ Q: Which of the following authentication factors is essential in secure dial-in 
  → Expected C, got B
 
 Q: What type of token utilizes a shared algorithm and a unique 'seed' value or key?
- → Expected B, got A
+ → Expected B, got C
 
 Q: How does a dial-up/callback system authenticate users before granting access to a computer system?
  → Expected B, got D
@@ -6436,6 +6403,9 @@ Q: What is the primary method of identifying dial-up users in a secure dial-in e
 
 Q: Which level of encryption is widely used and highly resistant to automated attacks?
  → Expected A, got C
+
+Q: Which of the following is a characteristic of the physical layer of a network infrastructure?
+ → Expected A, got D
 
 Q: What is the primary reason cable modems are considered notoriously insecure?
  → Expected A, got D
@@ -6451,9 +6421,6 @@ Q: What is the main function of a Wireless Access Point (WAP) in a wireless netw
 
 Q: Which mode of operation consists of a single WAP and a wired connection to a set of wireless end stations?
  → Expected B, got D
-
-Q: What is the fear associated with deploying wireless networks in hard-to-wire environments?
- → Expected D, got C
 
 Q: What is the primary function of a Wireless Access Point (WAP) in a wireless network infrastructure mode?
  → Expected C, got A
@@ -6477,7 +6444,7 @@ Q: Which organization initiated efforts to develop the network communication mod
  → Expected C, got A
 
 Q: Which type of service does ATM primarily support in the telecommunications industry?
- → Expected A, got B
+ → Expected A, got D
 
 Q: What major incentive drives the adoption of ATM in the telecommunications industry?
  → Expected D, got B
@@ -6498,13 +6465,10 @@ Q: When ESP is utilized for the security protocol, the protection, or hash, is o
  → Expected A, got D
 
 Q: Which type of attack can a firewall help prevent by rejecting certain types of incoming network traffic?
- → Expected A, got C
+ → Expected A, got D
 
 Q: Which function does ICMP protocol serve in the TCP/IP Internet Layer?
  → Expected C, got D
-
-Q: How does the PING program contribute to network security?
- → Expected C, got B
 
 Q: Which of the following is NOT a common program for probing target network communication services, operating systems, and key applications?
  → Expected D, got A
@@ -6519,16 +6483,16 @@ Q: Which type of NLSP can provide subnetwork-level security?
  → Expected C, got B
 
 Q: Which class of network service enhancement is designed to be used over a type of network where the rate of residual errors is unacceptable?
- → Expected A, got C
+ → Expected A, got D
 
 Q: Which set of procedures is common to all transport classes?
  → Expected C, got B
 
-Q: Which of the following is a standard security service provided by application-layer security protocols?
- → Expected B, got A
-
 Q: What is the purpose of the X.509 standard in application-layer security protocols?
  → Expected B, got C
+
+Q: What type of protocol is Internet Protocol (IP)?
+ → Expected D, got A
 
 Q: What does IPv6 address in terms of the number of addressable devices and networks?
  → Expected C, got B
@@ -6555,7 +6519,10 @@ Q: How do wireless devices typically handle the storage of sensitive information
  → Expected D, got C
 
 Q: When using WAP, which encryption protocols are generally used to protect the first and second paths of the transmission?
- → Expected C, got B
+ → Expected C, got A
+
+Q: When distributing VPN client installation files, what is an important factor to consider to minimize risk?
+ → Expected A, got B
 
 Q: What can mitigate the risk of terminated VPN connections being exploited by attackers for coordinated attacks?
  → Expected B, got C
@@ -6575,12 +6542,6 @@ Q: Which operating system patch levels can have a significant throughput impact 
 Q: What is typically the fastest encryption algorithm in a VPN?
  → Expected B, got C
 
-Q: What is a crucial element for the effective operation of a firewall?
- → Expected C, got A
-
-Q: Why is time synchronization important for a firewall?
- → Expected D, got C
-
 Q: What is a key aspect of Firewall-1 review and analysis?
  → Expected B, got A
 
@@ -6595,6 +6556,9 @@ Q: Which type of firewall provides the highest level of security but may impact 
 
 Q: What benefit does VPN technology provide for remote users?
  → Expected A, got C
+
+Q: Which type of cookie keeps track of the number of times a user returns to a specific site?
+ → Expected B, got C
 
 Q: What advantage of VPNs allows for the control of access between multiple network connections to various external organizations?
  → Expected A, got D
@@ -6672,10 +6636,7 @@ Q: What is the primary difference between lines and trunks in a telephony system
  → Expected B, got A
 
 Q: What common vulnerability can attackers exploit to make free calls through a compromised voicemail system?
- → Expected A, got B
-
-Q: How can an enterprise minimize inappropriate use of corporate telephone services by employees?
- → Expected B, got D
+ → Expected A, got D
 
 Q: What is an effective way for ISPs to prevent outgoing DDoS attacks from being launched from their infrastructure against others?
  → Expected C, got D
@@ -6692,14 +6653,8 @@ Q: Which phase of software use is characterized by the discovery and resolution 
 Q: Why is it important to limit a user's access to only the files and programs they need to perform their assigned job functions?
  → Expected B, got C
 
-Q: Which integrity model focuses on preventing unauthorized modifications to data or programs by comparing integrity levels between subjects and objects?
- → Expected C, got D
-
 Q: What security method uses a combination of Bell-LaPadula for confidentiality and Biba for integrity to prevent contamination of high-integrity data by low-integrity data or programs?
  → Expected A, got B
-
-Q: What are the three basic elements of protection provided by security technology?
- → Expected A, got D
 
 Q: Which of the following is NOT one of the key elements of protection provided by security technology?
  → Expected A, got D
@@ -6722,11 +6677,17 @@ Q: What is the primary purpose of establishing clipping levels for alarm activat
 Q: Where should the security department NOT report within the organization?
  → Expected B, got C
 
+Q: What is the most effective means of incorporating security training into the organization?
+ → Expected C, got B
+
 Q: Who owns the responsibility for data ownership and data classification decisions?
  → Expected D, got C
 
 Q: What is a key concept in establishing a data classification scheme?
  → Expected D, got A
+
+Q: What is not a property of trust according to the author?
+ → Expected B, got C
 
 Q: What is the essential process of gaining trust in an infrastructure?
  → Expected A, got C
@@ -6756,19 +6717,13 @@ Q: Which of the following represents the potential for harm or loss?
  → Expected A, got C
 
 Q: What does ARO stand for in the context of risk assessment?
- → Expected D, got B
+ → Expected D, got A
 
 Q: What is a potential primary use of an Annualized Loss Expectancy (ALE) value?
  → Expected A, got C
 
 Q: What is the first step in the task of risk mitigation in information risk management?
- → Expected A, got B
-
-Q: What type of control safeguards data and transactions?
- → Expected B, got C
-
-Q: What does adopting risk mean?
- → Expected A, got D
+ → Expected A, got C
 
 Q: What process must be done on a continuous basis to effectively manage security risk?
  → Expected A, got C
@@ -6803,9 +6758,6 @@ Q: Which process is used to ensure continued viability of backup copies?
 Q: Why can duplicating systems increase the load-bearing capacity of a system and provide increased stability?
  → Expected B, got C
 
-Q: What is the purpose of enrolling new users, managing personal user information, and usage profiles?
- → Expected D, got B
-
 Q: What is a necessary risk mitigation for authentication engine to provide real risk mitigation?
  → Expected A, got B
 
@@ -6816,7 +6768,7 @@ Q: Which component is necessary for enterprise applications to plan on at least 
  → Expected A, got B
 
 Q: What does a CNA must be in order to be eligible?
- → Expected B, got C
+ → Expected B, got D
 
 Q: Why is responsible disclosure important for CVE?
  → Expected D, got B
@@ -6831,7 +6783,7 @@ Q: What is the purpose of the CVE-compatible tool or service?
  → Expected C, got D
 
 Q: What issue type is normally excluded from CVE?
- → Expected C, got D
+ → Expected C, got A
 
 Q: What is the purpose of the Common Intrusion Event List (CIEL)?
  → Expected D, got B
@@ -6841,6 +6793,9 @@ Q: Which department within an organization is responsible for ensuring complianc
 
 Q: What is the primary responsibility of the Information Security Oversight Committee in an organization?
  → Expected C, got D
+
+Q: Which role in an organization ensures compliance with information protection policies, standards, procedures, and guidelines?
+ → Expected C, got B
 
 Q: What are the responsibilities of Information Delegates in an organization regarding information security?
  → Expected A, got B
@@ -6894,7 +6849,7 @@ Q: How is the value of availability, confidentiality, and integrity of informati
  → Expected A, got D
 
 Q: What provides management with the decision support information necessary to plan for, budget, and execute actual risk mitigation measures?
- → Expected A, got C
+ → Expected A, got B
 
 Q: What is the main difference between a Business Impact Analysis (BIA) and a risk assessment?
  → Expected C, got D
@@ -6962,9 +6917,6 @@ Q: What challenge do healthcare companies face when opening their networks to th
 Q: What was the primary basis for contract decisions in the early days of data center outsourcing?
  → Expected C, got B
 
-Q: What was the main dividing line determining whether an organization would outsource data center operations?
- → Expected B, got D
-
 Q: What is the primary responsibility of a security administrator?
  → Expected D, got C
 
@@ -6974,17 +6926,11 @@ Q: What factor is crucial in determining the type and scope of managed security 
 Q: Which type of attack involves manipulating input in HTML forms processed by a Common Gateway Interface (CGI) script to run system commands?
  → Expected B, got D
 
-Q: What kind of vulnerability refers to the insertion of hidden HTML form fields that can be manipulated by users to change prices or access system passwords?
- → Expected D, got B
-
 Q: Which is the best way to prevent Web application attacks?
  → Expected D, got B
 
 Q: What is the goal of the security awareness program?
  → Expected A, got C
-
-Q: In the context of database security, why should an application trust the user has already authenticated at the operating system level?
- → Expected C, got B
 
 Q: What is a characteristic of XML and other tagged metadata languages that raises security concerns?
  → Expected B, got C
@@ -7013,6 +6959,9 @@ Q: Why may access controls be compromised in development environments?
 Q: What is a major benefit of open source software?
  → Expected D, got C
 
+Q: What is the approximate number of security defects per thousand lines of code in software products?
+ → Expected B, got C
+
 Q: What is one inherent problem with open source security often touted by proponents of open source solutions?
  → Expected D, got C
 
@@ -7026,7 +6975,7 @@ Q: Which layer of PeopleSoft security is essentially column security?
  → Expected C, got D
 
 Q: What is the primary purpose of access groups in PeopleSoft query security?
- → Expected B, got C
+ → Expected B, got D
 
 Q: What should an organization consider when evaluating the need for centralized or decentralized architecture in the context of cybersecurity?
  → Expected A, got B
@@ -7066,6 +7015,9 @@ Q: Which principle concerns the critical issue of how privileges are acquired an
 
 Q: Which integrity principle deters improper behavior by threatening its discovery?
  → Expected A, got D
+
+Q: Which mechanism is concerned with cross-checks with external reality to ensure data integrity?
+ → Expected B, got D
 
 Q: Why is it recommended to prefer rules-based access control over list-based access control?
  → Expected D, got C
@@ -7128,7 +7080,7 @@ Q: Which term refers to a program written with functions and intent to copy and 
  → Expected B, got C
 
 Q: Which type of malware is used to - intentionally or unintentionally - use up a computing resource to the point where normal work cannot proceed?
- → Expected A, got D
+ → Expected A, got B
 
 Q: What term refers to a program that attaches itself to other programs as its vector of infection?
  → Expected A, got B
@@ -7169,8 +7121,8 @@ Q: What type of malicious code is a program that can 'infect' other programs by 
 Q: Which programming language has been exploited by malicious code to leverage security vulnerabilities in implementations and applications?
  → Expected A, got B
 
-Q: Which group may use malicious code to punish, hinder, or destroy the operations of groups or governments they find objectionable?
- → Expected D, got B
+Q: Which type of malicious code has more capabilities than tools that run strictly in a sandbox and is capable of accessing services and resources not available to code that runs in a restricted environment?
+ → Expected B, got D
 
 Q: What is the name of the worm that infected more than 360,000 computers across the globe on July 19, 2001?
  → Expected B, got A
@@ -7202,9 +7154,6 @@ Q: In block ciphers, what is the size of the block?
 Q: Which of the following is a key feature of a good block cipher?
  → Expected D, got C
 
-Q: The number of stages selected for summing and insertion into the left-most stage of an LFSR is determined by which constraint?
- → Expected A, got C
-
 Q: Which condition is essential for a successful implementation of public key cryptography where keys are made public?
  → Expected A, got D
 
@@ -7212,7 +7161,7 @@ Q: Which DES variant is known as DES-EDE and consists of three consecutive encry
  → Expected B, got D
 
 Q: Which cryptographic algorithm was designed by NIST and NSA and is used in the digital signature standard officially known as the Secure Hash Standard (SHS)?
- → Expected A, got D
+ → Expected A, got B
 
 Q: What is the primary purpose of a public key infrastructure (PKI)?
  → Expected A, got D
@@ -7223,26 +7172,20 @@ Q: What type of one-way hash function includes the key and provides authenticati
 Q: Which encryption algorithm was designed by NIST and NSA and is used in the digital signature standard?
  → Expected B, got D
 
-Q: What year did NIST approve the Federal Information Processing Standards (FIPS) 180-2, which contains specifications for the Secure Hash Standard?
- → Expected A, got C
-
-Q: Which of the following is a necessary principle of key management to ensure the secrecy of the keys?
- → Expected C, got B
-
 Q: In asymmetric key cryptography, what is the relationship between the encrypting and decrypting keys?
  → Expected B, got D
 
 Q: What is the primary function of encryption keys in the encryption process?
  → Expected B, got C
 
-Q: What is the main reason why symmetric cryptography has not had a great reception in the commercial marketplace in the last 20 years?
- → Expected A, got C
-
 Q: In the context of public key cryptography, what is the role of the public key?
  → Expected B, got C
 
 Q: What role does the root key play in a PKI?
  → Expected C, got A
+
+Q: What is the purpose of the proof of possession (POP) requirement in the initial registration process of a PKI?
+ → Expected D, got C
 
 Q: Which PKIX-CMP message is typically sent by the entity (EE) to the PKI during the initial registration process?
  → Expected A, got C
@@ -7263,16 +7206,13 @@ Q: What attribute of a ticket ensures that it can be used by an intermediate ser
  → Expected B, got A
 
 Q: What is the primary manageability concern associated with service principals in Kerberos?
- → Expected A, got D
+ → Expected A, got B
 
 Q: What attribute of a ticket is used to perform a function on behalf of the client and uses another end service?
  → Expected A, got C
 
 Q: Which service is typically dedicated to administrative functions in a Kerberos environment?
  → Expected C, got B
-
-Q: What attribute ensures that a ticket can be used by anyone who possesses the credential?
- → Expected D, got B
 
 Q: What is typically used to provide temporary, delegated access to a service in a Kerberos environment?
  → Expected A, got B
@@ -7287,13 +7227,13 @@ Q: What infrastructure element should be considered when provisioning the Kerber
  → Expected B, got A
 
 Q: What solution should be weighed against the cost and effort of rationalizing user identities in a large-scale deployment of Kerberos?
- → Expected A, got C
+ → Expected A, got D
 
 Q: Which of the following attacks involves actual modification of the information flow?
  → Expected D, got A
 
 Q: Which type of modern attack involves reverse-engineering, bypassing, and compromising security of supposed tamper-resistant devices?
- → Expected A, got D
+ → Expected A, got B
 
 Q: What type of attacks are ineffective against a one-time pad encryption scheme?
  → Expected B, got C
@@ -7312,9 +7252,6 @@ Q: What is necessary in choosing and implementing an intrusion detection system 
 
 Q: What is the primary benefit of implementing an intrusion detection system (IDS) in cybersecurity?
  → Expected B, got A
-
-Q: What is a key consideration for maintaining the integrity and reliability of data and applications during transition between different sensitivity levels in a system?
- → Expected C, got D
 
 Q: Why is the segregation of logical and physical environments important in a distributed system?
  → Expected A, got B
@@ -7340,6 +7277,9 @@ Q: Which of the following is NOT a type of computer backup (file copying method)
 Q: What is the most effective technical strategy to defend the integrity and availability of computer-based data?
  → Expected D, got B
 
+Q: What type of media is suitable for users with limited resources to use for backup, considering cost and ease of use?
+ → Expected D, got B
+
 Q: What type of backup media offers high capacity and fast access at a low cost?
  → Expected B, got D
 
@@ -7358,8 +7298,11 @@ Q: In the context of network security, what does the channel factor refer to?
 Q: What is an example of a security measure for remote access to computer systems?
  → Expected C, got B
 
+Q: How can modem security be enhanced to prevent unauthorized access?
+ → Expected D, got B
+
 Q: What is a key factor determining the effectiveness of a security infrastructure in an enterprise environment?
- → Expected D, got C
+ → Expected D, got B
 
 Q: Which of the following security measures associated with IEEE 802.11 networks is easily compromised and offers very limited potential?
  → Expected B, got C
@@ -7431,7 +7374,7 @@ Q: What is a crucial component for maintaining a positive E-commerce experience 
  → Expected B, got A
 
 Q: What method can be used to protect a corporate network from unauthorized access and secure data?
- → Expected A, got D
+ → Expected A, got C
 
 Q: What technology should not be used as a transport method for sensitive information in E-commerce?
  → Expected D, got C
@@ -7472,17 +7415,11 @@ Q: What is a critical consideration when designing the monitoring process in cyb
 Q: Why should an organization have its file and directory structure audited by an external company annually?
  → Expected A, got C
 
-Q: How does the approach to continuity planning differ for Web-based applications in comparison to traditional recovery time objectives (RTO)?
- → Expected B, got D
-
 Q: What is a key aspect in implementing a continuous availability methodological approach for Web-based applications?
  → Expected B, got C
 
 Q: What is a key reason to implement people-oriented organizational change management (OCM) in establishing a successful continuity planning process?
  → Expected D, got B
-
-Q: What is the key element that creates value for stakeholders and influences organizational behavior?
- → Expected D, got C
 
 Q: What is a primary reason for building computer rooms?
  → Expected A, got D
@@ -7496,17 +7433,11 @@ Q: Which skill set addresses the recovery planning needs of the organization's I
 Q: What should be the immediate action after the disaster has taken place in order to minimize the loss?
  → Expected C, got D
 
-Q: What skill set addresses development of an effective and efficient enterprise-wide emergency/disaster response capability, including the forming of appropriate zero management teams?
- → Expected D, got B
-
 Q: Why is proper documentation considered a critical resource in a disaster situation?
  → Expected A, got B
 
 Q: Why is it important to have comprehensive and complete business resumption plans up to date?
  → Expected C, got A
-
-Q: What key role do security professionals play in the project initiation phase of a business continuity plan?
- → Expected D, got B
 
 Q: What is a fundamental role of the information systems security professionals in the design and development phase of a business continuity plan?
  → Expected C, got B
@@ -7550,9 +7481,6 @@ Q: What was the primary reason for the delay in the Security Rule's implementati
 Q: What do organizations need to do to address the risks and vulnerabilities to the protected health information they maintain or transmit in electronic form?
  → Expected D, got A
 
-Q: In what way did Jason Heckel violate the terms of the Unsolicited Electronic Mail Act?
- → Expected D, got B
-
 Q: What is one fundamental way to protect business assets against cybersecurity threats?
  → Expected C, got B
 
@@ -7574,7 +7502,7 @@ Q: What is the main reason for the business to invest in an operational forensic
 Q: Under what condition can the court accept a duplicate as evidence instead of the original?
  → Expected A, got D
 
-Q: Which concept ensures that only relevant and reliable evidence is entered into legal proceedings?
+Q: Which phase of the Evidence Life Cycle includes the steps Collection and Identification, Analysis, Storage, Preservation and Transportation, Presentation in Court, and Return to Victim (Owner)?
  → Expected C, got D
 
 Q: What should the investigative team assess before executing the plan for a computer crime?
@@ -7635,7 +7563,7 @@ Q: What is the primary focus of the follow-up phase in incident response?
  → Expected D, got B
 
 Q: What is the primary use of forensic programming and software forensics in the context of analyzing program code?
- → Expected D, got C
+ → Expected D, got B
 
 Q: What is a potential use of software forensics in the context of identifying the author of a piece of malicious code?
  → Expected C, got B
@@ -7658,26 +7586,17 @@ Q: In cybersecurity, why is it important to report an incident?
 Q: Who should be the primary audience for communication of an incident that has business ramifications?
  → Expected C, got A
 
-Q: What should be included in a preliminary report to management regarding an internal incident?
- → Expected A, got B
-
 Q: Within an organization, which team is responsible for serving as the single gateway of information coming into the team for incident management?
  → Expected A, got C
 
 Q: What is the primary purpose of asymmetrical encryption in the context of incident response management?
  → Expected D, got B
 
-Q: Why is it important to establish a Critical Incident Response Team (CIRT) before an incident happens?
- → Expected B, got A
-
-Q: What does 'cyber stalking' refer to in the context of cybersecurity?
- → Expected A, got B
-
 Q: Which of the following is a fundamental principle of responsible computing behavior?
  → Expected C, got D
 
 Q: What is a common fallacy among computer users regarding the information on the internet?
- → Expected A, got C
+ → Expected A, got B
 
 Q: What is the purpose of the Computer Ethics Institute?
  → Expected D, got A
@@ -7727,9 +7646,6 @@ Q: What do NICs stand for in the context of networking?
 Q: What does the term 'Need-to-Know' refer to in the context of security?
  → Expected A, got C
 
-Q: What is the purpose of implementing monitoring systems?
- → Expected C, got D
-
 Q: What is the main objective of the Technical Guideline TR-03184 on Information Security for Space Systems?
  → Expected D, got B
 
@@ -7756,6 +7672,9 @@ Q: What is the purpose of using a clean room?
 
 Q: Which security measure prevents unauthorised entry to premises?
  → Expected A, got C
+
+Q: Which principle of cybersecurity focuses on ensuring that data is accurate and trustworthy?
+ → Expected D, got C
 
 Q: Which of the following best describes a threat actor type known as a 'script kiddy'?
  → Expected A, got C
@@ -7786,9 +7705,6 @@ Q: What type of code intercepts API calls in driver shimming and driver refactor
 
 Q: Which program is commonly used in Microsoft environments to govern user and computer accounts through a set of rules, and can be enhanced with security templates to configure many rules at once?
  → Expected C, got B
-
-Q: What is the best procedure or command to convert a volume from FAT or FAT32 to NTFS on a Microsoft-based system?
- → Expected D, got B
 
 Q: Why is it important to disable unnecessary hardware from a virtual machine?
  → Expected D, got B
@@ -7839,7 +7755,7 @@ Q: Where are software firewalls usually located?
  → Expected C, got B
 
 Q: A coworker has installed an SMTP server on the company firewall. What security principle does this violate?
- → Expected A, got D
+ → Expected A, got B
 
 Q: You are setting up a network intrusion detection system on a server and need to monitor the server's network traffic. Which mode should you configure the network adapter to operate in?
  → Expected D, got A
@@ -7851,7 +7767,7 @@ Q: What should be modified in the administration interface of a Wireless Access 
  → Expected D, got A
 
 Q: What is the main security vulnerability that Wi-Fi Protected Setup (WPS) is known for?
- → Expected B, got A
+ → Expected B, got D
 
 Q: Which wireless technology is susceptible to attacks such as skimming, man-in-the-middle, eavesdropping, and spoofing in the context of authentication and tracking tags for objects?
  → Expected A, got D
@@ -7859,11 +7775,11 @@ Q: Which wireless technology is susceptible to attacks such as skimming, man-in-
 Q: What is the most commonly seen security risk of using coaxial cable?
  → Expected D, got B
 
+Q: Of the following, what is the most common problem associated with UTP cable?
+ → Expected C, got B
+
 Q: Which of the following, when removed, can increase the security of a wireless access point?
  → Expected D, got C
-
-Q: Which authentication protocol uses a challenge-response mechanism with one-way encryption and is used for dial-up connections?
- → Expected A, got C
 
 Q: Which remote authentication protocol uses port 49 over a TCP transport and separates authentication and authorization into two separate processes?
  → Expected C, got B
@@ -7873,6 +7789,9 @@ Q: What is the common port number used by RADIUS for authentication messages?
 
 Q: What is used to track users who access a free wireless network and can be circumvented with the use of a packet sniffer?
  → Expected A, got C
+
+Q: What is the primary function of TACACS+ in remote authentication?
+ → Expected B, got A
 
 Q: Which password management system would work best for a company with 1000 users?
  → Expected B, got C
@@ -7922,9 +7841,6 @@ Q: What does a block cipher mode like Cipher Block Chaining (CBC) require for ea
 Q: What is the primary characteristic of a one-time pad encryption?
  → Expected B, got C
 
-Q: In Pretty Good Privacy (PGP), what cryptographic technique is used for encrypting data?
- → Expected D, got B
-
 Q: You need to encrypt and send a large amount of data. Which of the following would be the best option?
  → Expected A, got B
 
@@ -7936,12 +7852,6 @@ Q: Your boss wants you to set up an authentication scheme in which employees wil
 
 Q: Which type of key is used to decrypt the hash of a digital signature?
  → Expected B, got C
-
-Q: What is the primary purpose of a redundant power supply in a server?
- → Expected D, got C
-
-Q: Which type of generator is the least expensive, high maintenance, and requires manual start-up?
- → Expected A, got D
 
 Q: What type of generator is quieter, requires little user interaction, and is connected to the organization's electrical panel?
  → Expected A, got C
@@ -7970,17 +7880,8 @@ Q: What method should be used to monitor and control HVAC systems in server room
 Q: What type of security control involves using multifactor authentication and wireless shielding?
  → Expected A, got D
 
-Q: In information security, what guiding principle ensures that IT infrastructure risks are known and managed?
- → Expected C, got B
-
 Q: What is the primary focus of onboarding and offboarding policies within an organization from a security perspective?
  → Expected C, got B
-
-Q: What is the primary goal of user education and awareness training within an organization?
- → Expected D, got B
-
-Q: Which type of control involves fire extinguishers, video surveillance, and security guards?
- → Expected A, got D
 
 Q: What is employed to completely destroy all data on the media and comply with the U.S. Department of Defense (DoD) 5220.22-M standard?
  → Expected A, got B
@@ -8006,17 +7907,20 @@ Q: Which protocol is used to transfer files securely between computers and uses 
 Q: What is the best approach for protecting against multiple unauthenticated attempts to connect to a local computer remotely?
  → Expected B, got C
 
+Q: What is the best approach for protecting against unauthorized connections to a SCADA network?
+ → Expected B, got D
+
 Q: What could be the reason for a WAP to be taken offline if it uses an overlapping channel and has a lower power level reading?
  → Expected A, got D
-
-Q: When MAC filtering is enabled on a WAP, which method can easily circumvent it using a network sniffer?
- → Expected A, got B
 
 Q: What are the two best methods to increase password security?
  → Expected C, got B
 
 Q: Which of the following are recommended for achieving compliance with PCI and SOX regulations?
  → Expected B, got A
+
+Q: What is the best way to secure a remote desktop server according to the given risk assessment?
+ → Expected A, got B
 
 Q: What is the purpose of internet proxy?
  → Expected A, got B
@@ -8055,10 +7959,7 @@ Q: How many functions are specified by NIST's cybersecurity framework?
  → Expected C, got D
 
 Q: Why should you not write malware in Python?
- → Expected B, got A
-
-Q: What does the following command line tcpdump -i eth2 host 192.168.10.5 capture?
- → Expected C, got B
+ → Expected B, got D
 
 Q: To which process do Java programs identify themselves when sharing procedures over the network?
  → Expected B, got C
@@ -8094,7 +7995,7 @@ Q: What order, from bottom to top, does the TCP/IP architecture use?
  → Expected A, got C
 
 Q: The UDP headers contain which of the following fields?
- → Expected C, got A
+ → Expected C, got B
 
 Q: If you were to see the subnet mask 255.255.252.0, what CIDR notation (prefix) would you use to indicate the same thing?
  → Expected D, got C
@@ -8108,9 +8009,6 @@ Q: What is the primary focus of procedures in the security program?
 Q: What is the main purpose of guidelines in a security program?
  → Expected C, got B
 
-Q: Which of these is an example of an application layer gateway?
- → Expected C, got D
-
 Q: What information is most commonly leaked during reconnaissance activities and can be used for social engineering attacks?
  → Expected A, got D
 
@@ -8118,13 +8016,13 @@ Q: What can be achieved by running the tool Sherlock in the context of cybersecu
  → Expected A, got C
 
 Q: If a domain doesn't allow zone transfers from anyone other than the secondary name servers, what utility might be used to extract common resource records in DNS and identify hostnames?
- → Expected A, got C
+ → Expected A, got B
 
 Q: What are you aiming to find by using the 'filetype:txt Sysadmin:1000' Google search query?
  → Expected C, got B
 
 Q: What information could you get from running p0f?
- → Expected A, got D
+ → Expected A, got C
 
 Q: What is the purpose of using fping in a ping sweep?
  → Expected B, got D
@@ -8199,7 +8097,7 @@ Q: Which malware type requires the user to execute its code, but then can spread
  → Expected B, got C
 
 Q: Which malware type requires an external program or user action to execute its code?
- → Expected A, got B
+ → Expected A, got D
 
 Q: What is a botnet client purpose in a botnet?
  → Expected A, got C
@@ -8228,9 +8126,6 @@ Q: At which protocol layer does the Berkeley Packet Filter operate?
 Q: Which of these would not be a result of a DHCP starvation attack for the victim?
  → Expected A, got D
 
-Q: What would you need to do before you could perform a DNS spoof attack using Ettercap?
- → Expected B, got A
-
 Q: What is a common delivery method for running arbitrary code on a remote system in a phishing attack using the Social‐Engineer Toolkit?
  → Expected C, got B
 
@@ -8248,9 +8143,6 @@ Q: What is a method to successfully get malware onto a mobile device without hav
 
 Q: What tool could you use to enable sniffing on your wireless network to acquire all headers?
  → Expected C, got B
-
-Q: What doesn't the signal range for a Class A Bluetooth device commonly be?
- → Expected B, got C
 
 Q: What does WPA3 use to start the authentication and association process between stations and access points?
  → Expected B, got C
@@ -8270,14 +8162,11 @@ Q: What is the target of a command injection attack?
 Q: What could you use to inform a defensive strategy?
  → Expected D, got B
 
-Q: What are two important characteristics that differentiate defensible network architectures from defense in depth?
- → Expected B, got C
-
 Q: What attack technique can be used to bypass address space layout randomization?
  → Expected B, got C
 
 Q: In a hybrid cryptosystem, what is used to protect the symmetric key?
- → Expected C, got A
+ → Expected C, got B
 
 Q: How does a certificate authority keep a list of valid certificates up‐to‐date?
  → Expected A, got B
@@ -8290,9 +8179,6 @@ Q: Why might forced browsing be used in testing endpoint identification?
 
 Q: Which technique can be employed to protect cloud-based resources against inadvertent data disclosure?
  → Expected B, got A
-
-Q: Which of these is less likely to be a common element of cloud‐native design?
- → Expected C, got B
 
 Q: Which of these is not an advantage of using automation in a cloud environment?
  → Expected C, got D
@@ -8317,6 +8203,9 @@ Q: What type of cipher is a rotation cipher with a key of 4 known as?
 
 Q: What principle ensures that a signed message can be tied back to the subject of the signing certificate, providing assurance that the message was indeed sent by the identified subject?
  → Expected D, got C
+
+Q: In Triple DES (3DES), how many keys are used in the encryption and decryption process?
+ → Expected A, got D
 
 Q: What method of cryptography uses two related keys for encryption and decryption?
  → Expected D, got C
@@ -8352,7 +8241,7 @@ Q: Which international standard defines principles for incident management?
  → Expected C, got A
 
 Q: Which of the following is NOT considered a good attribute for a security metric?
- → Expected D, got A
+ → Expected D, got C
 
 Q: What term is often used to describe the authority to make or enforce laws and regulations within a particular state?
  → Expected D, got B
@@ -8373,13 +8262,10 @@ Q: Which principles are intended to 'protect people not places'?
  → Expected D, got B
 
 Q: Under what circumstance can a controller avoid notifying data subjects after a personal data breach as per GDPR?
- → Expected A, got D
+ → Expected A, got C
 
 Q: Which legal concept refers to a contractual term that seeks to avoid financial responsibility for entire categories of financial loss arising as a result of breach of contract?
  → Expected A, got D
-
-Q: Under tort law, what is the broader term used to describe a situation where a tortfeasor's conduct causes harm to another individual or their property?
- → Expected C, got A
 
 Q: Which legal concept focuses on proof that the relevant tortious action was the cause of a legally cognizable harm suffered by the victim?
  → Expected C, got B
@@ -8392,6 +8278,9 @@ Q: What are the three categories of legal concerns related to the dematerializat
 
 Q: How is cyber espionage generally regarded under international law during peacetime?
  → Expected A, got B
+
+Q: When is a cyber operation treated as a 'cyber attack' under international law?
+ → Expected A, got C
 
 Q: What are the key principles that underpin the law of armed conflict?
  → Expected A, got D
@@ -8426,8 +8315,14 @@ Q: What technique involves reducing the precision with which data is shared, aim
 Q: What approach is more efficient and accurate for detecting old malware attacks?
  → Expected A, got C
 
+Q: What is the primary approach to detect packed malware?
+ → Expected D, got B
+
 Q: What does polymorphic malware blending do to avoid detection?
  → Expected D, got B
+
+Q: Which method does cybercriminals typically use to get in contact and trade the services needed for their illegal operations to succeed?
+ → Expected B, got D
 
 Q: What kind of attack uses targeted phishing to lure activists and companies into installing malware that is later used to spy on them?
  → Expected A, got C
@@ -8438,17 +8333,26 @@ Q: Which element is essential for a cyber-dependent organized criminal operation
 Q: What does an affiliate program provide to its affiliates in the cybercriminal world?
  → Expected D, got B
 
+Q: What is a common technique for distributing malware to users?
+ → Expected C, got B
+
 Q: Which model allows researchers to identify hotspots for cybercrime, such as poorly configured systems that are easier to compromise?
- → Expected B, got A
+ → Expected B, got D
+
+Q: Which type of payment methods often used by cybercriminals offers more anonymity and is less regulated?
+ → Expected D, got B
 
 Q: What is the main reason for attackers to concentrate malicious servers in bulletproof hosting service providers?
  → Expected A, got B
 
-Q: What is the main advantage of application logs over system logs?
+Q: What common issue needs to be considered when manipulating pcap files for the purpose of intrusion detection?
  → Expected C, got D
 
-Q: What is the key advantage of anomaly detection in detecting cyber attacks?
- → Expected A, got B
+Q: What is the main advantage of application logs over system logs?
+ → Expected C, got B
+
+Q: What is the earliest 'intrusion detection' paper by Denning known for including in the model of system monitoring?
+ → Expected D, got B
 
 Q: What is the base-rate fallacy in the context of intrusion detection?
  → Expected D, got C
@@ -8460,7 +8364,7 @@ Q: What is digital forensics?
  → Expected B, got A
 
 Q: What is the primary concern related to encrypted data during the forensic data acquisition process?
- → Expected B, got C
+ → Expected B, got D
 
 Q: Cryptographic hashing is primarily used for which purpose in digital forensics?
  → Expected B, got C
@@ -8534,17 +8438,11 @@ Q: What type of monitoring is used to track the flow of untrusted input strings 
 Q: What is the main benefit of WebAssembly?
  → Expected A, got B
 
-Q: Which factor is required during a two-factor authentication process besides a password?
- → Expected D, got C
-
 Q: Which type of attack exploits user interface weaknesses of both web and mobile clients to steal sensitive information including login credentials and credit card numbers from victims?
  → Expected A, got D
 
 Q: Which approach prevents Cross-Site Scripting (XSS) attacks by randomizing HTML tags and attributes to distinguish between untrusted and trusted content?
  → Expected C, got D
-
-Q: Which guide provides comprehensive information for mobile application security testing and reverse engineering for iOS and Android mobile security testers?
- → Expected A, got B
 
 Q: What practice is used to reduce or eliminate the amount of sensitive data that need to be processed and stored in cloud environments?
  → Expected A, got B
@@ -8556,12 +8454,15 @@ Q: Which resource provides a checklist of items that should be documented, revie
  → Expected A, got C
 
 Q: What practice is used to ensure the platform for developing cloud applications provides trust measurement capabilities?
- → Expected A, got D
+ → Expected A, got B
 
 Q: What is the purpose of the Common Criteria?
  → Expected A, got D
 
 Q: Which organization provides resources on secure software development and deployment guidance?
+ → Expected B, got C
+
+Q: What does the US National Institute of Standards and Technology (NIST) Systems Security Engineering Cyber Resiliency Considerations for the Engineering framework provide?
  → Expected B, got C
 
 Q: What is the role of the National Institute of Standards and Technology (NIST) in cybersecurity?
@@ -8583,7 +8484,7 @@ Q: What type of attacks did the Triton malware specifically target in industrial
  → Expected B, got C
 
 Q: Which approach is used for adding integrity and authentication to network packets exchanged between legacy devices on an insecure network?
- → Expected A, got C
+ → Expected A, got D
 
 Q: What is the primary reason for passive monitoring of the physical system through out-of-band channels?
  → Expected A, got C
@@ -8607,10 +8508,13 @@ Q: What does Physical-Layer Identification aim to achieve?
  → Expected D, got B
 
 Q: What are the properties that fingerprints need to present in order to achieve practical implementations?
- → Expected D, got C
+ → Expected D, got B
 
 Q: In the context of global navigation satellite systems, what is the primary goal of secure distance measurement protocols?
  → Expected B, got C
+
+Q: What technology is usually deployed in conjunction with unauthenticated ADS-B to mitigate some of its security vulnerabilities?
+ → Expected D, got C
 
 Q: What type of attack is a seamless takeover attack in GNSS spoofing?
  → Expected A, got B
@@ -8622,15 +8526,12 @@ Q: What should individuals and organizations do to protect their systems and dat
  → Expected B, got C
 
 Q: Which international agreement provides protection of undisclosed know-how and business information (trade secrets) against unlawful acquisition, use, and disclosure?
- → Expected B, got A
+ → Expected B, got C
 
 Q: Which international framework establishes a community framework for electronic signatures?
  → Expected A, got B
 
 Q: What term describes the practice of convincing users to reveal sensitive information by pretending to be a trustworthy entity?
- → Expected A, got B
-
-Q: What distinguishes a vulnerability disclosure from a zero-day exploit?
  → Expected A, got B
 
 Q: A consumer Internet of Things (IoT) device adhering to which standard is considered to have higher cybersecurity standards?
@@ -8664,7 +8565,7 @@ Q: Which of the following is a Type 1 authentication factor?
  → Expected D, got C
 
 Q: What can a Type 2 authentication factor include?
- → Expected C, got D
+ → Expected C, got A
 
 Q: What is the main difference between a memory card and a smart card?
  → Expected A, got B
@@ -8687,6 +8588,9 @@ Q: What is the term used to describe the situation where a user account accumula
 Q: What method do knowledge-based intrusion detection systems use to detect intrusion attempts?
  → Expected A, got B
 
+Q: What is used to keep subjects accountable for their actions while they are authenticated to a system?
+ → Expected D, got C
+
 Q: Which of the following types of IDS is effective only against known attack methods?
  → Expected A, got B
 
@@ -8695,9 +8599,6 @@ Q: Which of the following is a fake network designed to tempt intruders with unp
 
 Q: Which type of twisted-pair cabling is most often referred to as just 10Base-T?
  → Expected C, got A
-
-Q: Which network topology employs a centralized connection device such as a hub?
- → Expected C, got B
 
 Q: Which type of network service provides bandwidth on demand and is a preferred connection mechanism for remote LANs that communicate infrequently?
  → Expected D, got C
@@ -8723,11 +8624,17 @@ Q: What security concept ensures that the subject of an event cannot deny that t
 Q: Which characteristic of security controls involves the use of multiple controls in a series?
  → Expected A, got D
 
+Q: What stage of the hiring process involves creating a job description, setting a classification for the job, screening candidates, and hiring and training the one best suited for the job?
+ → Expected B, got D
+
 Q: What type of document in a hierarchical organization of documentation provides a course of action by which technology and procedures are uniformly implemented throughout an organization?
  → Expected B, got D
 
 Q: Which element of risk represents the percentage of loss that an organization would experience if a specific asset were violated by a realized risk?
  → Expected D, got C
+
+Q: Which of the following represents the likelihood that a threat will exploit a vulnerability to cause harm to an asset?
+ → Expected B, got C
 
 Q: What is the exposure factor used for in quantitative risk analysis?
  → Expected D, got B
@@ -8742,7 +8649,7 @@ Q: Which of the following represents accidental exploitations of vulnerabilities
  → Expected D, got B
 
 Q: How is the value of a safeguard to a company calculated?
- → Expected A, got C
+ → Expected A, got B
 
 Q: Which security role is responsible for assigning the sensitivity label to objects?
  → Expected A, got B
@@ -8752,6 +8659,9 @@ Q: What is the main purpose of the conceptual definition phase in the systems de
 
 Q: Richard believes that a database user is misusing his privileges to gain information about the company’s overall business trends by issuing queries that combine data from a large number of records. What process is the database user taking advantage of?
  → Expected D, got B
+
+Q: What database security technique appears to permit the insertion of multiple rows sharing the same uniquely identifying information?
+ → Expected C, got D
 
 Q: Which of the following acts as a proxy between two different systems to support interaction and simplify the work of programmers?
  → Expected B, got A
@@ -8766,7 +8676,7 @@ Q: What propagation technique does the Good Times virus use to spread infection?
  → Expected D, got B
 
 Q: Which one of the following files might be modified or created by a companion virus?
- → Expected A, got C
+ → Expected A, got B
 
 Q: Which one of the following passwords is least likely to be compromised during a dictionary attack?
  → Expected B, got D
@@ -8807,14 +8717,17 @@ Q: What technology is widely used in Europe and uses permanent virtual circuits 
 Q: Which type of WAN connection technology supports multiple PVCs over a single WAN carrier service connection and uses Committed Information Rate (CIR) to guarantee minimum bandwidth?
  → Expected A, got C
 
+Q: What is a common protection against DNS spoofing?
+ → Expected A, got C
+
+Q: Which of the following is true about tunnel connections?
+ → Expected D, got C
+
 Q: Which of the following is not an essential element of a VPN link?
  → Expected B, got D
 
 Q: Which of the following is not defined in RFC 1918 as one of the private IP address ranges that are not routed on the Internet?
  → Expected A, got D
-
-Q: Which of the following is not a benefit of NAT?
- → Expected B, got A
 
 Q: What is the primary function of job rotation in an organization?
  → Expected C, got D
@@ -8829,7 +8742,7 @@ Q: What are the six major steps in quantitative risk analysis?
  → Expected D, got B
 
 Q: What is responsible for assign security roles within an organization and ensuring the responsibilities tied to those roles?
- → Expected D, got A
+ → Expected D, got C
 
 Q: How is single loss expectancy (SLE) calculated?
  → Expected A, got B
@@ -8877,16 +8790,13 @@ Q: In the context of computer architecture, what is primarily responsible for in
  → Expected A, got D
 
 Q: Which component of the state machine model ensures that a system always boots into a secure state and maintains a secure state across all transitions?
- → Expected A, got D
+ → Expected A, got C
 
 Q: What does the security perimeter of a system separate from the rest of the system?
  → Expected C, got B
 
 Q: What does process confinement restrict the actions of a program to?
  → Expected A, got D
-
-Q: What is the process of formal acceptance of a certified configuration called?
- → Expected C, got D
 
 Q: What restricts a process to specific memory locations for reading and writing?
  → Expected A, got D
@@ -8911,6 +8821,12 @@ Q: What is the primary countermeasure against malicious war dialing?
 
 Q: Which form of sniffing involves capturing radio frequency signals and radiated communication methods?
  → Expected C, got B
+
+Q: Monitoring can be used to perform all but which of the following?
+ → Expected D, got C
+
+Q: Failure to perform which of the following can result in the perception that due care is not being maintained?
+ → Expected B, got A
 
 Q: Which essential element of an audit report is not considered to be a basic concept of the audit?
  → Expected A, got B
@@ -8972,17 +8888,11 @@ Q: Which form of physical identification and/or electronic access control device
 Q: What is the main reason for the failure of a water-based suppression system?
  → Expected A, got B
 
-Q: What do Faraday cages primarily protect against?
- → Expected A, got B
-
-Q: What system can be used to reduce the temperature of an area and is inappropriate for computer rooms or electrical equipment storage facilities?
- → Expected C, got D
-
 Q: Which of the following is the most important aspect of security?
  → Expected A, got D
 
 Q: What method can be used to map out the needs of an organization for a new facility?
- → Expected B, got A
+ → Expected B, got C
 
 Q: What type of physical security controls focus on facility construction and selection, site management, personnel controls, awareness training, and emergency response and procedures?
  → Expected D, got B
@@ -9029,9 +8939,6 @@ Q: Which of the following is an example of a BAU (business-as-usual) process in 
 Q: What should be done with sensitive authentication data (SAD) after completion of the authorization process?
  → Expected D, got A
 
-Q: What is the main purpose of an access control model in the context of cybersecurity?
- → Expected B, got A
-
 Q: How frequently should audit logs be retained according to the Payment Card Industry Data Security Standard (PCI DSS)?
  → Expected B, got A
 
@@ -9054,6 +8961,9 @@ Q: What should an entity do to reduce the impact of security breaches leading to
  → Expected A, got D
 
 Q: Why are sampling procedures utilized in PCI DSS assessments?
+ → Expected D, got A
+
+Q: What is the goal of restricting inbound traffic to the cardholder data environment (CDE)?
  → Expected D, got A
 
 Q: Why is it important to encrypt sensitive authentication data (SAD) with a different cryptographic key than the one used for PAN?
@@ -9085,6 +8995,12 @@ Q: What is the purpose of maintaining a current list of all system components in
 
 Q: How often should the security awareness program be reviewed and updated?
  → Expected A, got D
+
+Q: How often is the list of all third-party service providers (TPSPs) maintained, including a description of the services provided?
+ → Expected D, got C
+
+Q: What is an important component of a formal Risk Mitigation and Migration Plan for service providers using SSL/early TLS for POS POI terminals?
+ → Expected B, got D
 
 Q: What is the frequency with which updates on PCI DSS compliance initiatives and issues should be provided to executive management and the board of directors?
  → Expected A, got B
