@@ -1,4 +1,5 @@
 🧪 Evaluating file: CyberMetric-80-v1.json
+
 ✅ Final Accuracy: 86.25%
 
 Incorrect answers:
@@ -37,6 +38,7 @@ Q: Which nmap command is used to perform a TCP SYN scan, also known as a half-op
 
 
 🧪 Evaluating file: CyberMetric-500-v1.json
+
 ✅ Final Accuracy: 81.20%
 
 Incorrect answers:
@@ -324,6 +326,8 @@ Q: Which choice below is NOT an example of an issue-specific policy?
 
 
 🧪 Evaluating file: CyberMetric-2000-v1.json
+Evaluating: 100%|███████████████████████████████████████████████████| 2000/2000 [1:13:11<00:00,  2.20s/it, Acc: 81.95%]
+
 ✅ Final Accuracy: 81.95%
 
 Incorrect answers:
@@ -1412,6 +1416,8 @@ Q: Why should you not write malware in Python?
 
 
 🧪 Evaluating file: CyberMetric-10000-v1.json
+Evaluating: 100%|█████████████████████████████████████████████████| 10180/10180 [6:19:36<00:00,  2.24s/it, Acc: 79.63%]
+
 ✅ Final Accuracy: 79.63%
 
 Incorrect answers:
@@ -7636,3 +7642,4 @@ Q: Which of the following factors is used to prove or verify the identity of an 
 
 Q: What does the acronym 'POI' stand for in the context of payment card transactions?
  → Expected B, got A
+
